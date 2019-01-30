@@ -43,7 +43,8 @@ nav a:hover{
 }
 
 .hobby{
-    color: blue;
+    color: purple;
+    text-align: center;
 }
 h1{
     font-family:'Pacifico', cursive;

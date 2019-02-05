@@ -1,0 +1,38 @@
+body{
+    background-color:lightgreen;
+    color: black;
+}
+
+header, main,nav,#welcome,me,nav{
+    text-align: center;
+}
+
+nav a:hover{
+    border-bottom: 2px purple solid;
+    font-size: 2em;
+    transition: .9s
+}
+
+#lan{
+  text-align: center;  
+}
+hr{
+    color:black;
+}
+#logo{
+    text-align: center;
+}
+
+#word{
+    text-align: center;
+}
+footer{
+    text-align: center;
+}
+div{
+    width: 200px;
+    height: 200px;
+ 
+    display:inline-block;
+    vertical-align: bottom;
+}

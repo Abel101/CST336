@@ -14,6 +14,7 @@
         var resetButton = document.querySelector("#reset");
         resetButton.style.display ="none";
         var resetButton;
+        
         guessField.focus();
     
         function checkguess(){

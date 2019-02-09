@@ -1,34 +1,37 @@
- <script> 
-           var ran =5+6;
-           console.log(ran);
+
+         //var ran =5+6;
+        //console.log(ran);
            
-           ran =Math.floor(Math.random()*99)+1;
-           console.log(ran);
-           document.getElementById('guess').innerHTML=ran;
-        var guesss = document.querySelector('#guess');
-        var lr=document.querySelector('#ls');
-        var lh = document.querySelector('#lh');
-        var submit = document.querySelector('.guesssubmit');
-        var field = document.querySelector('.guessfield');
+        var ran =Math.floor(Math.random()*99)+1;
+        var guesses = document.querySelector("#guesses");
+        var lr = document.querySelector("#ls");
+        var lh = document.querySelector("#lh");
+        
+        var guessSubmit = document.querySelector(".guessSubmit");
+        var guessField = document.querySelector(".guessField");
         
         var count = 1;
-        var reset = document.querySelector('#reset');
+        var resetButton = document.querySelector("#reset");
+        resetButton.style.display ="none";
+        var resetButton;
+        guessField.focus();
+    
         function checkguess(){
-            var user = Number(field.var);
+            var user = Number(guessField.value);
             if(count==1){
-                guesss.innerHTML= "pre guess:"; 
+                guesses.innerHTML= "Previous guess:"; 
             }
-            guesss.innerHTML+= user+' ';
+            guesses.innerHTML += user + " ";
             if(user==ran){
-                lr.innerHTML ="Congratulations ! You got it right!";
+                lr.innerHTML = " Congratulations ! You got it right! ";
                 lr.style.backgroundColor="green";
-                lh.innerHTML='';
+                lh.innerHTML="";
                 setGameOver();
             }else if(count == 7){
                 lr.innerHTML= "Sorry you lost";
                 setGameOver();
             }else{
-                lr.innerHTML = "Wrong";
+                lr.innerHTML = "Wrong!";
                 lr.style.backgroundColor ="red";
                 if(user < ran){
                     lh.innerHTML = "last guess was too low";
@@ -37,28 +40,30 @@
                 }
             }
             count ++;
-            field.var = " ";
-            field.focus();
+            guessField.value = "";
+            guessField.focus();
         }
-        submit.addEventListener("click",checkguess)
+        
+        guessSubmit.addEventListener("click", checkguess);
+        
         function setGameOver(){
-            field.disabled = true;
-            submit.disabled = true;
-            reset.style.display = "inline";
-            reset.addEventListener("click",resetGame);
+            guessField.disabled = true;
+            guessSubmit.disabled = true;
+            resetButton.style.display = "inline";
+            resetButton.addEventListener("click",resetGame);
         }
         function resetGame(){
             count =1;
             var resetpar = document.querySelectorAll(".resultpara");
             for(var i=0;i<resetpar.length;i++){
-                resetpar[i].textContent=" ";
+                resetpar[i].textContent = "";
             }
-            reset.style.display="none";
-            field.disabled=false;
-            submit.disabled=false;
-            field.var=" ";
-            field.focus();
+            resetButton.style.display="none";
+            
+            guessField.disabled=false;
+            guessSubmit.disabled=false;
+            guessField.value = "";
+            guessField.focus();
             lr.style.backgroundColor="white";
             ran = Math.floor(Math.random()*99)+1;
         }
-        </script>

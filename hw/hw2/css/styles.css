@@ -1,0 +1,28 @@
+title{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+body{
+    margin: 0px;
+    background-color: purple;
+    color: white;
+    text-align: center;
+    padding:20px;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+#top{
+    text-align: center;
+    background-color: black;
+    color:white;
+}
+#wow{
+    text-align: center;
+    background-color: black;
+    color:white;
+    padding: 30px;
+}

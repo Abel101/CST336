@@ -1,0 +1,32 @@
+body{
+    margin: 0px;
+}
+#top {
+    padding-left: 30px;
+    background-color: #000080;
+    color: white;
+}
+#text{
+    margin-left:20px;
+    text-align:left;
+}
+#title {
+     margin-left:20px;
+     text-align:left;
+}
+#row {
+    margin-left: 40px;
+    text-align: center;
+    
+    
+}
+.cell1{
+    display: inline;
+}
+.cell2{
+    display: inline;
+}
+#minor {
+     margin-left:20px;
+    text-align:left;
+}

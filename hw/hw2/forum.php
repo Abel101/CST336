@@ -21,7 +21,7 @@ if(isset($_POST["print"])){
     $degree = $_POST["degreeChoices"];
     $pet =$_POST["pets"];
     
-    echo "<hr1> Your name is ".$name. "<br /> </hr1>";
+    echo "Your name is ".$name. "<br />";
     echo "Your feedback: ".$feedback. "<br />";
     echo "Your favorite color is ".$color. "<br />";
     echo "Your highest degree is ".$degree. "<br />";

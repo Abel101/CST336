@@ -1,28 +1,25 @@
-title{
+body {
     text-align: center;
-    background-color: black;
-    color: white;
+    background-color:#34B3DA;
+
+.correct {
+    color: green;
+    font-size: 18pt;
 }
-body{
-    margin: 0px;
-    background-color: purple;
-    color: white;
-    text-align: center;
-    padding:20px;
+
+.incorrect {
+    color: red;
+    font-size: 18pt;
 }
-footer{
-    background-color: black;
-    color: white;
+#submitButton{
+    background-color: #4CAF50;
+    border: none;
+    color: black;
+    padding: 20px;
     text-align: center;
-}
-#top{
-    text-align: center;
-    background-color: black;
-    color:white;
-}
-#wow{
-    text-align: center;
-    background-color: black;
-    color:white;
-    padding: 30px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius:12px; 
 }

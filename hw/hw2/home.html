@@ -1,60 +1,198 @@
 <!DOCTYPE html>
-
 <html>
-<!--
-
-First Website
-and comment
-in html
-(comments can span multiple lines)
-
--->
-
-<!-- This is the head -->
-<!-- All styles and javascript go inside the head -->
     <head>
-        <meta charset ="utf-8"/>
-         <title> HW 2 : HTML Forms </title>
-         <link rel="stylesheet" href="css/styles.css" type="text/css" />
+        <title> Geography Quiz </title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <link href="css/styles.css" rel="stylesheet" type="text/css" />
+
     </head>
-<!-- closing head -->
-
-    <!-- This is the body -->
-    <!-- This is where we place the content of our website -->
     <body>
-        <div id ="top">
-            <h1>HTML Forms</h1>
+        <div class="jumbotron">
+        <h1>US Geography Quiz</h1>
         </div>
-
-
-    <form action= "forum.php" method = "POST">
-        Name <input type="text" name="fullname" size="25"/> <br/>
-        Feedback: <input type="textarea" name="feedback" cols = "30" rows="3"></textarea><br/><br/>
-        Colors:<br>
-        <select name ="color">
-            <option value ="Blue">Blue</option>
-            <option value = "Purple">Purple</option>
-            <option value = "Black">Black</option>
-            <option value = "Green">Green</option>
-            <option value = "Yellow">Yellow</option>
-            <option value = "Red">Red</option>
-        </select> <br/><br/>
-        Highes Degree Obtained: <br>
-        <input type="radio" id="iteam1" name="degreeChoices" value="High School">
-            <label for="iteam1">High School Diploma</label><br>
-        <input type="radio" id="iteam2" name="degreeChoices" value= "College">
-            <label for="iteam2">College</label><br><br>
-        Favorite pet<br>
-        <input type="checkbox" id = "dog" name="pets" value = "dog">
-            <label for="dog">Dog</label><br>
-        <input type="checkbox" id = "cat" name="pets" value = "cat">
-          <label for="cat">Cat</label><br>
-          <br>
-          <input type="submit" value ="Submit" name="print"/>
-          
-    </form>
-        <!-- This is the footer -->
-        <!-- The footer goes inside the body but not always -->
+        
+        <h2><span id="markImg1"></span>In what year did Alexander The Great die? (hint: BC at the end of the number no space.)</h2>
+        
+        <input type = "text" id="q1">
+        <div id="q1_feedback">
+            
+            
+        </div>
+        
+        <h2> <span id = "markImg2"></span>Who conqured the most land?</h2>
+        <select id="q2">
+            <option value="">Select One</option>
+            <option>GenghisKhan</option>
+            <option>Alexander The Great </option>
+            <option>Cyrus The Great</option>
+            <option>Hitler</option>
+        </select>
+        <div id="q2_feedback">
+        </div>
+            
+        
+        <h2><span id="markImg3"></span> What year was Gobekli Tepe ??</h2>
+        <input type="radio" name="q3" id="2019" value="2019"><label for="2019">2019 </label>
+        <input type="radio" name="q3" id="1945" value="1945"><label for="1945">1945 </label>
+        <input type="radio" name="q3" id="3430" value="3430"><label for="3430">3430 BC</label>
+        <input type="radio" name="q3" id="9500" value="9500"><label for="9500">9500 BCE</label>
+        <div id ="q3_feedback"></div>
+        <br></br>
+        
+        <h2><span id= "markImg4"></span>Who were on the Allies side in WW2 ?</h2>
+        <input type="checkbox" id="US"><label for="US">U.S</label>
+        <input type="checkbox" id="Germany"><label for="Germany">Germany</label>
+        <input type="checkbox" id="China"><label for ="China">China</label>
+        <input type="checkbox" id="UK" value="UK"><label for ="UK">UK</label>
+        <div id = "q4_feedback"></div>
+        
+        <h2> <span id ="markImg5"></span>What image is an Ancient Roman Coin ?</h2>
+        <img src="img/africa.jpg" alt="Seal 1" class="active" id="seal1">
+        <img src="img/china.jpg" alt="Seal 2" class="active" id="seal2">
+        <img src="img/rome.jpg" alt="Seal 3" class="active" id="seal3">
+        <div id = "q5_feedback"></div>
+        
+        <h2 id = "total"></h2>
+        <button id="submitButton"> Submit </button>
+        <h2 id="validSubmission"></h2>
+        <h2 id = "totalTimes"></h2>
+        <h3 id="prevScores"></h3>
+    </body>
+    
+    <script>
+        let q1_value = 20;
+        let q2_value = 20;
+        let q3_value = 20;
+        let q4_value = 20;
+        let q5_value = 20;
+        let q1_answer = "323BC";
+        let q2_answer = "GenghisKhan";
+        let q3_answer = "9500";
+        let q5_answer = "seal3";
+        let q5_response = "";
+        let totalTimes = localStorage.getItem("totalTimesTaken");
+        let scoresArray =  localStorage.getItem("scoreHistory");
+        if (scoresArray == null) {
+            scoresArray = [];
+        } else {
+            scoresArray = scoresArray.split(","); //creates array from a string
+        }
+        
+        $(".active").on( "click", function() {
+             $(".active").css("background","");
+             $(this).css("background","yellow");
+             //alert($(this).attr("id"));
+             q5_response = $(this).attr("id");
+        });
+        
+        function isFormValid(){
+            let isValid = true;
+            if ($("#q2").val() == "") {
+                isValid = false;
+                $("#validSubmission").html("Question 1 not answered");
+            }
+            return isValid;
+        }
+        
+        $("#submitButton").on( "click", function() {
+            
+            $("#validSubmission").html("");
+            
+            if (!isFormValid()) {   //isFormValid == false
+                return;
+            }
+            
+            let total_points = 0;
+            
+            let q1_response = $("#q1").val();
+            let q2_response = $("#q2").val();
+            let q3_response = $("input[name=q3]:checked").val();
+            
+            //Question 1
+            if(q1_response == q1_answer) {
+                $("#q1_feedback").html("Correct!");
+                total_points += q1_value;
+                $("#markImg1").html("<img src ='img/checkmark.png' alt='checkmark'>");
+                //alert(total_points);
+                $("#q1_feedback").attr("class", "correct");
+            }else {
+                $("#q1_feedback").html("Incorrect!");
+                $("#markImg1").html("<img src ='img/xmark.png' alt='xmark'>");
+                $("#q1_feedback").attr("class", "incorrect");
+            }
+            
+            //Question 2
+            if (q2_response == q2_answer) {
+                $("#q2_feedback").html("Correct!");
+                total_points += q2_value;
+                $("#markImg2").html("<img src ='img/checkmark.png' alt='checkmark'>");
+                $("#q2_feedback").attr("class", "correct");
+            }
+            else {
+                $("#q2_feedback").html("Incorrect!");
+                $("#markImg2").html("<img src ='img/xmark.png' alt='xmark'>");
+                $("#q2_feedback").attr("class", "incorrect");
+            }
+            
+            //Question 3
+            if (q3_response == q3_answer) {
+                $("#q3_feedback").html("Correct!");
+                total_points += q3_value;
+                $("#markImg3").html("<img src ='img/checkmark.png' alt='checkmark'>");
+                $("#q3_feedback").attr("class", "correct");
+            }
+            else {
+                $("#q3_feedback").html("Incorrect!");
+                $("#markImg3").html("<img src ='img/xmark.png' alt='xmark'>");
+                $("#q3_feedback").attr("class", "incorrect");
+            }
+            
+            //Question 4
+            if ($("#US").is(":checked") && $("#China").is(":checked") && $("#UK").is(":checked")&& !$("#Germany").is(":checked")){
+                $("#q4_feedback").html("Correct");
+                total_points+=q4_value;
+                $("#markImg4").html("<img src ='img/checkmark.png' alt='checkmark'>");
+                $("#q4_feedback").attr("class", "correct");
+            } else {
+                   $("#q4_feedback").html("Incorrect");
+                   $("#markImg4").html("<img src ='img/xmark.png' alt='xmark'>");
+                   $("#q4_feedback").attr("class", "incorrect");
+            }
+            
+            //Question 5
+            if (q5_response == q5_answer) {
+                $("#q5_feedback").html("Correct");
+                total_points += q5_value;
+                $("#markImg5").html("<img src ='img/checkmark.png' alt='checkmark'>");
+                $("#q5_feedback").attr("class", "correct");
+            } else {
+                $("#q5_feedback").html("Incorrect");
+                $("#markImg5").html("<img src ='img/xmark.png' alt='xmark'>");
+                $("#q5_feedback").attr("class", "incorrect");
+            }
+                
+            //Totals    
+            $("#total").html("The total Score is: " + total_points);
+            totalTimes++;
+            localStorage.setItem("totalTimesTaken",totalTimes);
+            $("#totalTimes").html("Quiz taken: " + totalTimes + " time(s)");
+            scoresArray.push(total_points);
+            $("#prevScores").html("Score History: ");
+            scoresArray.forEach(function(score){
+                $("#prevScores").append(score + " ");
+            });
+            
+            localStorage.setItem("scoreHistory",scoresArray);
+            if(total_points ==100){
+            alert("Congradulations!  YOU GOT EVERYTHING CORRECT !!!");
+            }
+            
+        });
+        
+        
+    </script>
         <footer>
             
             <hr>
@@ -71,5 +209,4 @@ in html
         
     </body>
     <!-- closing body -->
-
 </html>

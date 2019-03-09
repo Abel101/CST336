@@ -83,7 +83,7 @@
                               "pass ":$("#password").val()
                         },
                         success: function(data,status) {
-                        alert(data.validPass);
+                        $("#why").html(data.validPass);
                        
                         },
                         complete: function(data,status) { //optional, used for debugging purposes
@@ -101,7 +101,7 @@
     <body>
         <fieldset>
             <legend class= "jumbotron">
-                Sign Up
+               <h1>Sign Up</h1>
             </legend>
             
             First Name: <input type="text" id="firstName" name="firstName"  class="border border-primary" /> <br />

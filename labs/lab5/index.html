@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Sign Up - PHP Web API Version </title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/styles.css" type="text/css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+       
+        <script>
+            /*global $*/
+            
+            $(document).ready(function() {
+    
+                
+                $("#username1").change(function() {
+                    $.ajax({
+                        type: "GET",
+                        url: "api/checkUsername_text.php",
+                        data: { "username":$("#username1").val() },
+                        success: function(data,status) {
+                            $("#username1Error").html(data);
+                            
+                        },
+                        complete: function(data,status) { //optional, used for debugging purposes
+                        //alert(status);
+                        }
+                    
+                    });//ajax
+                });
+                
+                $("#username2").change(function() {
+                    $.ajax({
+
+                        type: "GET",
+                        url: "api/checkUsername_json.php",
+                        dataType: "json",
+                        data: { "username":$("#username2").val() },
+                        success: function(data,status) {
+                        //alert(data);
+                            if(data.available){
+                                $("#username2Error").html("Username is available!");
+                                $("#username2Error").css("color", "green");
+                            }
+                            else {
+                                $("#username2Error").html("Username is unavailable!");
+                                $("#username2Error").css("color", "red");
+                            }
+                        },
+                        complete: function(data,status) { //optional, used for debugging purposes
+                        //alert(status);
+                        }
+                    
+                    });//ajax  
+                });//username
+                
+                $("#password").on("click",function(){
+                     $.ajax({
+
+                        type: "GET",
+                        url: "api/strongPass.php",
+                        dataType: "json",
+                        data:{"length":"10"},
+                        success: function(data,status) {
+                        $("#why").html(data.suggestedPwd);
+                        $("#why").css("color","green");
+                       // alert(data.suggestedPwd);
+                        },
+                        complete: function(data,status) { //optional, used for debugging purposes
+                        //alert(status);
+                        }
+                    
+                    });//ajax  
+    
+                });//password
+                  $("#password").on("change",function(){
+                     $.ajax({
+
+                        type: "GET",
+                        url: "api/validatePass.php",
+                        dataType: "json",
+                        data:{"user": $("#username1").val(),
+                              "pass ":$("#password").val()
+                        },
+                        success: function(data,status) {
+                        alert(data.validPass);
+                       
+                        },
+                        complete: function(data,status) { //optional, used for debugging purposes
+                        //alert(status);
+                        }
+                    
+                    });//ajax  
+                    
+                });//validate
+            });//document
+        </script>
+
+    </head>
+    
+    <body>
+        <fieldset>
+            <legend class= "jumbotron">
+                Sign Up
+            </legend>
+            
+            First Name: <input type="text" id="firstName" name="firstName"  class="border border-primary" /> <br />
+            Last Name: <input type="text" id="lastName" name="lastName"  class="border border-primary" /> <br />
+            
+            Username: <input type="text" id="username1"  class="border border-primary"/>
+            <span id="username1Error"></span> <br />
+            
+            Username: <input type="text" id="username2"  class="border border-primary" />
+            <span id="username2Error" class="error"></span> <br />
+            <br />
+            
+            Password: <input type="password" id="password"  class="border border-primary"> <span id ="why"></span><br />
+            
+            <button> Sign up!</button>
+        </fieldset>
+    </body>
+</html>

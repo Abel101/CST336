@@ -1,0 +1,12 @@
+body{
+    text-align: center;
+    background-color: lightblue;
+    color: black;
+}
+fieldset{
+    text-shadow:
+	0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+button{
+    border-radius: 12px;
+}

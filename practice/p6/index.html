@@ -1,0 +1,110 @@
+<html>
+<head>
+    <title>Shopping Cart</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+     <script>
+   $(document).ready(function() {
+       $("#mess").change(function(){
+           $.ajax({
+
+                type: "GET",
+                url: "api/applyPromoCode.php",
+                dataType: "json",
+                data:{"promo": $("#mess").val()
+                },
+                success: function(data,status) {
+                if(data.available){
+                    $("#here").html("Promo here");
+                    $("#here").css("color","green");
+                    if(data.name === 'getFifty' || data.name === 'halfprice'){
+                        $("#discount").html("50%");
+                    }
+                }else{
+                    $("#here").html("Promo not herer");
+                    $("#here").css("color","red");
+                }    
+                
+                },
+                complete: function(data,status) { 
+                    
+                }
+                    
+            });//ajax  
+       })
+           $.ajax({
+
+                type: "GET",
+                url: "api/getRandomProduct.php",
+                dataType: "json",
+                success: function(data,status) {
+                $("#name").html(data.iteam);
+                $("#price").html(data.price);
+                },
+                complete: function(data,status) { 
+                    
+                }
+                    
+            });//ajax  
+       })
+       
+       
+    </script>
+</head>
+
+<body>
+    <h1> Spring Break Shopping  </h1>
+
+    <table>
+    <tr>
+        <th>Product</th>
+        <th>Unit <br> Price</th>
+        <th> Quantity </th>
+        <th>Total</th>
+    </tr>
+    <tr>
+        <td><span id="name"></span></td>
+        <td><span id= "price"</td>
+        <td><input type="text" size="5" id = "micro"></td>
+        <td id="t1"></td>
+    </tr>
+
+
+   <tr>
+        <td>Discount</td>
+        <td></td>
+        <td id ="discount"></td>
+        <td id="after"></td>
+    </tr>    
+        
+    <tr>
+        <td>Subtotal</td>
+        <td></td>
+        <td></td>
+        <td id="subtotal"></td>
+    </tr>             
+        
+    <tr>
+        <td>Tax (10%)</td>
+        <td></td>
+        <td></td>
+        <td id="tax"></td>
+    </tr>
+    
+    <tr>
+        <td>Total</td>
+        <td></td>
+        <td></td>
+        <td id="total"></td>
+    </tr>
+       
+    </table>
+    
+    Promo Code: <input type ="text" name="promo" id="mess"><span id= "here"></span>
+    <br><br>
+        
+    
+   
+
+</body>
+</html>

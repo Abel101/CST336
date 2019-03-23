@@ -1,0 +1,30 @@
+h1{
+    text-align: center
+}
+
+#torso{
+    color:#CC3D61;
+    text-align: center;
+    background-color: lightblue;
+    padding: 0px;
+    
+}
+
+#results{
+    background-color: lightgrey;
+    color:#CC3D61;
+}
+#searchForm{
+    border-radius: 12px;
+    background-color: #CC3D61;
+}
+
+.row{ 
+    display:flex; 
+    
+}
+        
+.col1{ 
+    width:250px; 
+    
+}

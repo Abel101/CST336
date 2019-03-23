@@ -1,0 +1,985 @@
+[12-Mar-2019 23:56:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'ottermart'' in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php(9): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 9
+[12-Mar-2019 23:56:34 UTC] PHP Warning:  include(../../../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST336/labs/lab6/api/getCategories.php on line 2
+[12-Mar-2019 23:56:34 UTC] PHP Stack trace:
+[12-Mar-2019 23:56:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab6/api/getCategories.php:0
+[12-Mar-2019 23:56:34 UTC] PHP Warning:  include(): Failed opening '../../../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST336/labs/lab6/api/getCategories.php on line 2
+[12-Mar-2019 23:56:34 UTC] PHP Stack trace:
+[12-Mar-2019 23:56:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab6/api/getCategories.php:0
+[12-Mar-2019 23:56:34 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/CST336/labs/lab6/api/getCategories.php on line 3
+[12-Mar-2019 23:56:34 UTC] PHP Stack trace:
+[12-Mar-2019 23:56:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab6/api/getCategories.php:0
+[12-Mar-2019 23:56:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'ottermart'' in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php(9): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 9
+[12-Mar-2019 23:56:49 UTC] PHP Warning:  include(../../../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST336/labs/lab6/api/getCategories.php on line 2
+[12-Mar-2019 23:56:49 UTC] PHP Stack trace:
+[12-Mar-2019 23:56:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab6/api/getCategories.php:0
+[12-Mar-2019 23:56:49 UTC] PHP Warning:  include(): Failed opening '../../../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST336/labs/lab6/api/getCategories.php on line 2
+[12-Mar-2019 23:56:49 UTC] PHP Stack trace:
+[12-Mar-2019 23:56:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab6/api/getCategories.php:0
+[12-Mar-2019 23:56:49 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/CST336/labs/lab6/api/getCategories.php on line 3
+[12-Mar-2019 23:56:49 UTC] PHP Stack trace:
+[12-Mar-2019 23:56:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab6/api/getCategories.php:0
+[13-Mar-2019 00:09:27 UTC] PHP Warning:  include(../../../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST336/labs/lab6/api/getCategories.php on line 2
+[13-Mar-2019 00:09:27 UTC] PHP Stack trace:
+[13-Mar-2019 00:09:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab6/api/getCategories.php:0
+[13-Mar-2019 00:09:27 UTC] PHP Warning:  include(): Failed opening '../../../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST336/labs/lab6/api/getCategories.php on line 2
+[13-Mar-2019 00:09:27 UTC] PHP Stack trace:
+[13-Mar-2019 00:09:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab6/api/getCategories.php:0
+[13-Mar-2019 00:09:27 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/CST336/labs/lab6/api/getCategories.php on line 3
+[13-Mar-2019 00:09:27 UTC] PHP Stack trace:
+[13-Mar-2019 00:09:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab6/api/getCategories.php:0
+[13-Mar-2019 00:10:08 UTC] PHP Warning:  include(../../../inc/db_connection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST336/labs/lab6/api/getCategories.php on line 2
+[13-Mar-2019 00:10:08 UTC] PHP Stack trace:
+[13-Mar-2019 00:10:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab6/api/getCategories.php:0
+[13-Mar-2019 00:10:08 UTC] PHP Warning:  include(): Failed opening '../../../inc/db_connection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST336/labs/lab6/api/getCategories.php on line 2
+[13-Mar-2019 00:10:08 UTC] PHP Stack trace:
+[13-Mar-2019 00:10:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab6/api/getCategories.php:0
+[13-Mar-2019 00:10:08 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/CST336/labs/lab6/api/getCategories.php on line 3
+[13-Mar-2019 00:10:08 UTC] PHP Stack trace:
+[13-Mar-2019 00:10:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab6/api/getCategories.php:0
+[13-Mar-2019 00:11:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'ottermart'' in /home/ubuntu/workspace/CST336/db/db_connection.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/db/db_connection.php(18): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/CST336/labs/lab6/api/getCategories.php(3): getDatabaseConnection('ottermart')
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/db/db_connection.php on line 18
+[13-Mar-2019 00:12:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'order clause'' in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 16
+[13-Mar-2019 00:28:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'order clause'' in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 16
+[13-Mar-2019 00:28:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'order clause'' in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 16
+[13-Mar-2019 00:28:54 UTC] PHP Parse error:  syntax error, unexpected '$conn' (T_VARIABLE) in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 3
+[13-Mar-2019 00:28:56 UTC] PHP Parse error:  syntax error, unexpected '$conn' (T_VARIABLE) in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 3
+[13-Mar-2019 00:28:59 UTC] PHP Parse error:  syntax error, unexpected '$conn' (T_VARIABLE) in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 3
+[13-Mar-2019 00:28:59 UTC] PHP Parse error:  syntax error, unexpected '$conn' (T_VARIABLE) in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 3
+[13-Mar-2019 00:28:59 UTC] PHP Parse error:  syntax error, unexpected '$conn' (T_VARIABLE) in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 3
+[13-Mar-2019 00:28:59 UTC] PHP Parse error:  syntax error, unexpected '$conn' (T_VARIABLE) in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 3
+[13-Mar-2019 00:29:00 UTC] PHP Parse error:  syntax error, unexpected '$conn' (T_VARIABLE) in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 3
+[13-Mar-2019 00:29:16 UTC] PHP Parse error:  syntax error, unexpected '$conn' (T_VARIABLE) in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 3
+[13-Mar-2019 00:30:07 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'order clause'' in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 16
+[13-Mar-2019 00:33:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'order clause'' in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 16
+[23-Mar-2019 16:14:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'order clause'' in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 16
+[23-Mar-2019 16:15:07 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 38
+[23-Mar-2019 16:15:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'order clause'' in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 16
+[23-Mar-2019 16:15:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 38
+[23-Mar-2019 16:15:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 38
+[23-Mar-2019 16:15:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 38
+[23-Mar-2019 16:15:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 38
+[23-Mar-2019 16:15:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 38
+[23-Mar-2019 16:15:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 38
+[23-Mar-2019 16:15:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 38
+[23-Mar-2019 16:15:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 38
+[23-Mar-2019 16:16:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'order clause'' in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 16
+[23-Mar-2019 16:16:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 38
+[23-Mar-2019 16:16:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 38
+[23-Mar-2019 16:16:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 38
+[23-Mar-2019 16:16:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'order clause'' in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 16
+[23-Mar-2019 16:16:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'order clause'' in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 16
+[23-Mar-2019 16:17:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'order clause'' in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 16
+[23-Mar-2019 16:18:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'order clause'' in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 16
+[23-Mar-2019 16:20:37 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'order clause'' in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 16
+[23-Mar-2019 16:21:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'order clause'' in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 16
+[23-Mar-2019 16:21:12 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'order clause'' in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 16
+[23-Mar-2019 16:22:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'order clause'' in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 16
+[23-Mar-2019 16:23:38 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'order clause'' in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 16
+[23-Mar-2019 16:25:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'order clause'' in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 16
+[23-Mar-2019 16:25:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'order clause'' in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 16
+[23-Mar-2019 16:26:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'order clause'' in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 16
+[23-Mar-2019 16:28:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'order clause'' in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 16
+[23-Mar-2019 16:28:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'order clause'' in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 16
+[23-Mar-2019 16:29:03 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'order clause'' in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 16
+[23-Mar-2019 16:29:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'OtterMart.om_Purchase' doesn't exist' in /home/ubuntu/workspace/CST336/labs/lab6/api/getPurchaseHistory.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getPurchaseHistory.php(15): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getPurchaseHistory.php on line 15
+[23-Mar-2019 16:29:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'OtterMart.om_Purchase' doesn't exist' in /home/ubuntu/workspace/CST336/labs/lab6/api/getPurchaseHistory.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getPurchaseHistory.php(15): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getPurchaseHistory.php on line 15
+[23-Mar-2019 16:29:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'OtterMart.om_Purchase' doesn't exist' in /home/ubuntu/workspace/CST336/labs/lab6/api/getPurchaseHistory.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getPurchaseHistory.php(15): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getPurchaseHistory.php on line 15
+[23-Mar-2019 16:32:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'order clause'' in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 16
+[23-Mar-2019 16:33:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'order clause'' in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 16
+[23-Mar-2019 16:38:03 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'order clause'' in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 16
+[23-Mar-2019 16:38:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'order clause'' in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 16
+[23-Mar-2019 16:38:57 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'order clause'' in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 16
+[23-Mar-2019 16:39:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'order clause'' in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 16
+[23-Mar-2019 16:39:07 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'order clause'' in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 16
+[23-Mar-2019 16:39:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'order clause'' in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 16
+[23-Mar-2019 16:39:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'order clause'' in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 16
+[23-Mar-2019 16:40:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'order clause'' in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 16
+[23-Mar-2019 16:41:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'order clause'' in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 16
+[23-Mar-2019 16:41:57 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'order clause'' in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 16
+[23-Mar-2019 16:45:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'order clause'' in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 16
+[23-Mar-2019 16:47:03 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'order clause'' in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 16
+[23-Mar-2019 16:47:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'order clause'' in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 16
+[23-Mar-2019 16:47:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'order clause'' in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 16
+[23-Mar-2019 16:48:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'order clause'' in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 16
+[23-Mar-2019 16:48:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'order clause'' in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 16
+[23-Mar-2019 16:49:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'order clause'' in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 16
+[23-Mar-2019 16:51:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'order clause'' in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 16
+[23-Mar-2019 16:51:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'order clause'' in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 16
+[23-Mar-2019 16:53:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'order clause'' in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 16
+[23-Mar-2019 16:53:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'OtterMart.om_Purchase' doesn't exist' in /home/ubuntu/workspace/CST336/labs/lab6/api/getPurchaseHistory.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getPurchaseHistory.php(15): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getPurchaseHistory.php on line 15
+[23-Mar-2019 16:54:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 38
+[23-Mar-2019 16:54:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 38
+[23-Mar-2019 16:54:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 38
+[23-Mar-2019 16:54:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 38
+[23-Mar-2019 16:54:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 38
+[23-Mar-2019 16:54:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 38
+[23-Mar-2019 16:54:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 38
+[23-Mar-2019 16:54:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 38
+[23-Mar-2019 16:54:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 38
+[23-Mar-2019 16:54:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 38
+[23-Mar-2019 16:54:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 38
+[23-Mar-2019 16:54:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 38
+[23-Mar-2019 16:54:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 38
+[23-Mar-2019 16:54:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 38
+[23-Mar-2019 16:57:12 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'order clause'' in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 16
+[23-Mar-2019 16:57:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 38
+[23-Mar-2019 16:57:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 38
+[23-Mar-2019 16:57:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 38
+[23-Mar-2019 16:57:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 38
+[23-Mar-2019 16:57:29 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 38
+[23-Mar-2019 16:57:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'order clause'' in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 16
+[23-Mar-2019 16:57:38 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 38
+[23-Mar-2019 16:57:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 38
+[23-Mar-2019 16:57:45 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 38
+[23-Mar-2019 16:57:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 38
+[23-Mar-2019 16:57:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 38
+[23-Mar-2019 16:57:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 38
+[23-Mar-2019 16:57:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 38
+[23-Mar-2019 16:57:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 38
+[23-Mar-2019 16:57:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 38
+[23-Mar-2019 16:57:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 38
+[23-Mar-2019 16:57:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 38
+[23-Mar-2019 16:57:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 38
+[23-Mar-2019 16:57:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 38
+[23-Mar-2019 16:57:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 38
+[23-Mar-2019 16:57:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 38
+[23-Mar-2019 16:57:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 38
+[23-Mar-2019 16:58:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'order clause'' in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 16
+[23-Mar-2019 16:58:08 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'OtterMart.om_Purchase' doesn't exist' in /home/ubuntu/workspace/CST336/labs/lab6/api/getPurchaseHistory.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getPurchaseHistory.php(15): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getPurchaseHistory.php on line 15
+[23-Mar-2019 17:06:38 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'order clause'' in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 16
+[23-Mar-2019 17:07:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'order clause'' in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 16
+[23-Mar-2019 17:08:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'order clause'' in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 16
+[23-Mar-2019 17:09:08 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 38
+[23-Mar-2019 17:09:12 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 38
+[23-Mar-2019 17:09:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 38
+[23-Mar-2019 17:09:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 38
+[23-Mar-2019 17:09:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 38
+[23-Mar-2019 17:09:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 38
+[23-Mar-2019 17:09:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 38
+[23-Mar-2019 17:09:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 38
+[23-Mar-2019 17:09:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 38
+[23-Mar-2019 17:09:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 38
+[23-Mar-2019 17:09:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 38
+[23-Mar-2019 17:09:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 38
+[23-Mar-2019 17:09:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 38
+[23-Mar-2019 17:09:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(38): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 38
+[23-Mar-2019 17:14:16 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'order clause'' in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 16
+[23-Mar-2019 17:14:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 41
+[23-Mar-2019 17:14:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 41
+[23-Mar-2019 17:14:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 41
+[23-Mar-2019 17:14:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 41
+[23-Mar-2019 17:14:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 41
+[23-Mar-2019 17:14:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 41
+[23-Mar-2019 17:14:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 41
+[23-Mar-2019 17:14:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 41
+[23-Mar-2019 17:14:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 41
+[23-Mar-2019 17:14:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 41
+[23-Mar-2019 17:14:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 41
+[23-Mar-2019 17:14:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 41
+[23-Mar-2019 17:14:29 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 41
+[23-Mar-2019 17:14:29 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 41
+[23-Mar-2019 17:14:29 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 41
+[23-Mar-2019 17:14:29 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 41
+[23-Mar-2019 17:14:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'order clause'' in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 16
+[23-Mar-2019 17:14:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 41
+[23-Mar-2019 17:14:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 41
+[23-Mar-2019 17:14:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 41
+[23-Mar-2019 17:14:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 41
+[23-Mar-2019 17:14:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 41
+[23-Mar-2019 17:14:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 41
+[23-Mar-2019 17:14:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 41
+[23-Mar-2019 17:14:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 41
+[23-Mar-2019 17:14:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 41
+[23-Mar-2019 17:14:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 41
+[23-Mar-2019 17:14:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 41
+[23-Mar-2019 17:14:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 41
+[23-Mar-2019 17:14:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 41
+[23-Mar-2019 17:14:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 41
+[23-Mar-2019 17:14:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 41
+[23-Mar-2019 17:14:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 41
+[23-Mar-2019 17:14:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 41
+[23-Mar-2019 17:14:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 41
+[23-Mar-2019 17:14:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 41
+[23-Mar-2019 17:14:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 41
+[23-Mar-2019 17:16:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'order clause'' in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 16
+[23-Mar-2019 17:16:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'order clause'' in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 16
+[23-Mar-2019 17:16:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 41
+[23-Mar-2019 17:16:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 41
+[23-Mar-2019 17:16:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 41
+[23-Mar-2019 17:16:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 41
+[23-Mar-2019 17:16:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 41
+[23-Mar-2019 17:16:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 41
+[23-Mar-2019 17:16:56 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 41
+[23-Mar-2019 17:16:56 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 41
+[23-Mar-2019 17:16:56 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 41
+[23-Mar-2019 17:17:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 41
+[23-Mar-2019 17:17:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 41
+[23-Mar-2019 17:17:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 41
+[23-Mar-2019 17:17:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 41
+[23-Mar-2019 17:17:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'order clause'' in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 16
+[23-Mar-2019 17:17:57 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'order clause'' in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 16
+[23-Mar-2019 17:18:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'order clause'' in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 16
+[23-Mar-2019 17:18:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'order clause'' in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 16
+[23-Mar-2019 17:19:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'order clause'' in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 16
+[23-Mar-2019 17:19:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 41
+[23-Mar-2019 17:19:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 41
+[23-Mar-2019 17:19:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 41
+[23-Mar-2019 17:19:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 41
+[23-Mar-2019 17:19:45 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 41
+[23-Mar-2019 17:19:45 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 41
+[23-Mar-2019 17:19:45 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 41
+[23-Mar-2019 17:19:45 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 41
+[23-Mar-2019 17:19:45 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 41
+[23-Mar-2019 17:19:45 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 41

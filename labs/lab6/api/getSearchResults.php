@@ -2,7 +2,6 @@
     include '../../../db/db_connection.php';
     $conn = getDatabaseConnection("OtterMart");
 
-    $product =$_GET['product'];
     $namedParameters = array();
     
     $sql ="SELECT * FROM om_product WHERE 1
@@ -20,7 +19,7 @@ if(!empty($_GET['category'])){
 }
 if(!empty($_GET['priceFrom'])){
     $sql .= "AND price >= :priceForm";
-    $namedParameters[":priceForm"] = "%" . $_GET['priceForm'] ."%";
+    $namedParameters[":priceForm"] = $_GET['priceForm'] ;
 }
 
 if(!empty($_GET['priceTo'])){

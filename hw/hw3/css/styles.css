@@ -1,0 +1,12 @@
+body{
+    text-align: center;
+    background-color: darkgrey;
+}
+.jumbotron{
+    background-color: green;
+    outline-color: rgb(201,76,76);
+}
+
+name{
+    font-weight: bold;
+}

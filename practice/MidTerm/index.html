@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+        <title> Discount Shopping! </title>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <script>
+        $(document).ready(function(){
+            let discountAmount = 0;
+            let discount = 0;
+            let quant2 = 0;
+            let quant = 0;
+            let price = 0;
+            let price2 = 0;
+            let total1 = 0;
+            let total2 = 0;
+            let subtotal = 0;
+            let taxAmount = 0;
+            let total = 0;
+        
+            //Gets Category list from database and displays them in the dropdown menu
+            $.ajax({
+                type: "GET",
+                url: "api/getAllProducts.php",
+                dataType: "json",
+                success: function(data, status) {
+                    data.forEach(function(key) {
+                        $("#products").append("<option value=" + key["productPrice"] + ">" + key["productName"] + "</option>");
+                    });
+                }
+            });
+            
+            $.ajax({
+                    type: "GET",
+                    url: "api/applyPromoCode.php",
+                    dataType: "json",
+                    success: function(data,status) 
+                    {   
+                        // alert(data['promoCode']);
+                        $("#promoCode").val(data['promoCode']);
+                        $("#EXP").html("Promo will expire: "+data['expirationDate']);
+                        $("#EXP").css("color","red");
+                        discount = data['discount'];
+                        discountAmount = data['discount']/100;
+                        $("#discountPercent").html(discount+"%");
+                        $("#discountTotal").html("$" + discountAmount);
+                        // updatePrices();
+                        
+                    },
+                    complete: function(data,status) 
+                    { 
+                        //optional, used for debugging purposes
+                        //alert(status);
+                    }
+                    
+            });//ajax
+            
+            $.ajax({
+                type: "GET",
+                url: "api/getRandomProduct.php",
+                dataType: "json",
+                //data: { "": },
+                success: function(data,status) 
+                {
+                    $("#productName").html(data['productName']);
+                    $("#productPrice").html(data['productPrice']);
+                    price = data['productPrice'];
+                },
+                complete: function(data,status) 
+                { 
+                    //optional, used for debugging purposes
+                    //alert(status);
+                }
+                
+            });//ajax
+        
+             $("#products").on("change", function(){
+                 $("#productPrices").html($("#products").val());
+             });
+            
+            $("#promoCode").on('change', function(){
+                $.ajax({
+                    type: "GET",
+                    url: "api/promoCheck.php",
+                    dataType: "json",
+                    data: {'promoCode': $("#promoCode").val()},
+                    success: function(data,status) 
+                    {   
+                        // alert(data['promoCode']);
+
+                        if(data.here){
+                            // $("promoCode").css("color","green");
+                            // $("#EXP").html("Promo will expire: "+ data['expirationDate']);
+                            // $("#EXP").css("color","red");
+                            // discount = data['discount'];
+                            // discountAmount = data['discount']/100;
+                            // $("#discountPercent").html(discount+"%");
+                            // $("#discountTotal").html("$" + discountAmount);
+                        }else{
+                            // $("promoCode").css("color","red");
+                            // $("#EXP").html("PromoCode not found");
+                        }
+                        
+
+                    },
+                    complete: function(data,status) 
+                    { 
+                        //optional, used for debugging purposes
+                        //alert(status);
+                    }
+                    
+                });//ajax
+            });
+            
+            $("#productQuantity").on('change', function(){
+                
+                quant = parseInt($("#productQuantity").val());
+                updatePrices();
+               
+            });
+            $("#productQuantity2").on('change', function(){
+                price2 =  $("#products").val();
+                quant2 = parseInt($("#productQuantity2").val());
+                updatePrices();
+            });
+        
+            
+            function updatePrices()
+            {
+                let tmpDisc = 0;
+                let tmpDiscAmount = 0;
+                total1 = quant*price;
+                $("#productTotal").html("$" + total1);
+                total2 = quant2*price2;
+                $("#productTotal2").html("$" + total2);
+                total1 += total2;
+                tmpDisc = total1 * discountAmount;
+                subtotal = total1 - tmpDisc;
+                taxAmount = subtotal * .1;
+                total = taxAmount + subtotal
+                
+                $("#discountTotal").html("$" + tmpDisc);
+                
+                $("#subtotalTotal").html("$" + subtotal);
+                
+                $("#taxTotal").html("$" + taxAmount);
+                
+                $("#totalTotal").html("$" + total);
+            }
+        
+        });
+        
+    </script>
+    <body>
+
+        <h1>
+            
+            Discount Shopping!
+            
+        </h1>
+        
+        <hr>
+        
+
+        <table>
+            <tr>
+                <th>Product</th>
+                <th>Unit Price</th>
+                <th> Quantity </th>
+                <th>Total</th>
+            </tr>
+            
+            <tr>
+                <th>
+                 <div id="productName" class="modal" tabindex="-1" role="dialog">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Product History</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <div id="history">
+                                    
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </th>
+                
+                <th><div id = "productPrice"></div></th>
+                <th><input type = text id = "productQuantity"></div></th>
+                <th><div id = "productTotal"></div></th>
+            </tr>
+            
+            <tr>
+                <th> <select name="products" id="products">
+                        <option value=""> -Select One- </option>
+                    </select>
+                </th>
+                <th><div id = "productPrices"></div></th>
+                <th><input type = text id = "productQuantity2"></div></th>
+                <th><div id = "productTotal2"></div></th>
+            </tr>
+            
+            <tr>
+                <th>Discount</th>
+                <th></th>
+                <th><div id = "discountPercent"></div></th>
+                <th><dv id = "discountTotal"></div></th>
+            </tr>
+            
+            <tr>
+                <th>Subtotal</th>
+                <th></th>
+                <th></th>
+                <th><div id = "subtotalTotal"></div></th>
+            </tr>
+            
+            <tr>
+                <th>Tax (10%)</th>
+                <th></th>
+                <th></th>
+                <th><div id = "taxTotal"></div></th>
+            </tr>
+            
+            <tr>
+                <th>Total</th>
+                <th></th>
+                <th></th>
+                <th><div id = "totalTotal"></div></th>
+            </tr>
+            
+        </table>
+        
+        <h2>
+            Promo Code: <input type = "text" id = "promoCode"></input>
+        </h2>
+        <div id ="EXP">
+            
+        </div>
+    </body>
+</html>

@@ -983,3 +983,113 @@ Stack trace:
 #0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(41): PDOStatement->execute(Array)
 #1 {main}
   thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 41
+[23-Mar-2019 18:19:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 41
+[23-Mar-2019 18:19:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 41
+[23-Mar-2019 18:19:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 41
+[23-Mar-2019 18:19:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 41
+[23-Mar-2019 18:19:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 41
+[23-Mar-2019 18:20:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 41
+[23-Mar-2019 18:20:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 41
+[23-Mar-2019 18:20:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 41
+[23-Mar-2019 18:20:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 41
+[23-Mar-2019 18:20:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 41
+[23-Mar-2019 18:20:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 41
+[23-Mar-2019 18:20:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 41
+[23-Mar-2019 18:20:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 41
+[23-Mar-2019 18:20:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 41
+[23-Mar-2019 18:20:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 41
+[23-Mar-2019 18:20:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 41
+[23-Mar-2019 18:20:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 41
+[23-Mar-2019 18:20:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 41
+[23-Mar-2019 18:20:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 41
+[23-Mar-2019 18:20:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 41
+[23-Mar-2019 18:20:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 41
+[23-Mar-2019 18:20:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 41

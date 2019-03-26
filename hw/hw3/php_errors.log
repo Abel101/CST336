@@ -1,0 +1,569 @@
+[26-Mar-2019 17:10:20 UTC] PHP Warning:  include(../../../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST336/hw/hw3/api/AllSpartans.php on line 2
+[26-Mar-2019 17:10:20 UTC] PHP Stack trace:
+[26-Mar-2019 17:10:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/AllSpartans.php:0
+[26-Mar-2019 17:10:20 UTC] PHP Warning:  include(): Failed opening '../../../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST336/hw/hw3/api/AllSpartans.php on line 2
+[26-Mar-2019 17:10:20 UTC] PHP Stack trace:
+[26-Mar-2019 17:10:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/AllSpartans.php:0
+[26-Mar-2019 17:10:20 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/CST336/hw/hw3/api/AllSpartans.php on line 3
+[26-Mar-2019 17:10:20 UTC] PHP Stack trace:
+[26-Mar-2019 17:10:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/AllSpartans.php:0
+[26-Mar-2019 17:12:07 UTC] PHP Warning:  include(../../../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST336/hw/hw3/api/AllSpartans.php on line 2
+[26-Mar-2019 17:12:07 UTC] PHP Stack trace:
+[26-Mar-2019 17:12:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/AllSpartans.php:0
+[26-Mar-2019 17:12:07 UTC] PHP Warning:  include(): Failed opening '../../../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST336/hw/hw3/api/AllSpartans.php on line 2
+[26-Mar-2019 17:12:07 UTC] PHP Stack trace:
+[26-Mar-2019 17:12:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/AllSpartans.php:0
+[26-Mar-2019 17:12:07 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/CST336/hw/hw3/api/AllSpartans.php on line 3
+[26-Mar-2019 17:12:07 UTC] PHP Stack trace:
+[26-Mar-2019 17:12:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/AllSpartans.php:0
+[26-Mar-2019 17:12:15 UTC] PHP Warning:  include(../../../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST336/hw/hw3/api/AllSpartans.php on line 2
+[26-Mar-2019 17:12:15 UTC] PHP Stack trace:
+[26-Mar-2019 17:12:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/AllSpartans.php:0
+[26-Mar-2019 17:12:15 UTC] PHP Warning:  include(): Failed opening '../../../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST336/hw/hw3/api/AllSpartans.php on line 2
+[26-Mar-2019 17:12:15 UTC] PHP Stack trace:
+[26-Mar-2019 17:12:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/AllSpartans.php:0
+[26-Mar-2019 17:12:15 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/CST336/hw/hw3/api/AllSpartans.php on line 3
+[26-Mar-2019 17:12:15 UTC] PHP Stack trace:
+[26-Mar-2019 17:12:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/AllSpartans.php:0
+[26-Mar-2019 17:13:38 UTC] PHP Warning:  include(../../../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST336/hw/hw3/api/AllSpartans.php on line 2
+[26-Mar-2019 17:13:38 UTC] PHP Stack trace:
+[26-Mar-2019 17:13:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/AllSpartans.php:0
+[26-Mar-2019 17:13:38 UTC] PHP Warning:  include(): Failed opening '../../../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST336/hw/hw3/api/AllSpartans.php on line 2
+[26-Mar-2019 17:13:38 UTC] PHP Stack trace:
+[26-Mar-2019 17:13:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/AllSpartans.php:0
+[26-Mar-2019 17:13:38 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/CST336/hw/hw3/api/AllSpartans.php on line 3
+[26-Mar-2019 17:13:38 UTC] PHP Stack trace:
+[26-Mar-2019 17:13:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/AllSpartans.php:0
+[26-Mar-2019 17:14:50 UTC] PHP Warning:  include(../../../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST336/hw/hw3/api/AllSpartans.php on line 2
+[26-Mar-2019 17:14:50 UTC] PHP Stack trace:
+[26-Mar-2019 17:14:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/AllSpartans.php:0
+[26-Mar-2019 17:14:50 UTC] PHP Warning:  include(): Failed opening '../../../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST336/hw/hw3/api/AllSpartans.php on line 2
+[26-Mar-2019 17:14:50 UTC] PHP Stack trace:
+[26-Mar-2019 17:14:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/AllSpartans.php:0
+[26-Mar-2019 17:14:50 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/CST336/hw/hw3/api/AllSpartans.php on line 3
+[26-Mar-2019 17:14:50 UTC] PHP Stack trace:
+[26-Mar-2019 17:14:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/AllSpartans.php:0
+[26-Mar-2019 17:15:20 UTC] PHP Warning:  include(../../../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST336/hw/hw3/api/AllSpartans.php on line 2
+[26-Mar-2019 17:15:20 UTC] PHP Stack trace:
+[26-Mar-2019 17:15:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/AllSpartans.php:0
+[26-Mar-2019 17:15:20 UTC] PHP Warning:  include(): Failed opening '../../../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST336/hw/hw3/api/AllSpartans.php on line 2
+[26-Mar-2019 17:15:20 UTC] PHP Stack trace:
+[26-Mar-2019 17:15:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/AllSpartans.php:0
+[26-Mar-2019 17:15:20 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/CST336/hw/hw3/api/AllSpartans.php on line 3
+[26-Mar-2019 17:15:20 UTC] PHP Stack trace:
+[26-Mar-2019 17:15:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/AllSpartans.php:0
+[26-Mar-2019 17:16:14 UTC] PHP Warning:  include(../../../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST336/hw/hw3/api/AllSpartans.php on line 2
+[26-Mar-2019 17:16:14 UTC] PHP Stack trace:
+[26-Mar-2019 17:16:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/AllSpartans.php:0
+[26-Mar-2019 17:16:14 UTC] PHP Warning:  include(): Failed opening '../../../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST336/hw/hw3/api/AllSpartans.php on line 2
+[26-Mar-2019 17:16:14 UTC] PHP Stack trace:
+[26-Mar-2019 17:16:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/AllSpartans.php:0
+[26-Mar-2019 17:16:14 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/CST336/hw/hw3/api/AllSpartans.php on line 3
+[26-Mar-2019 17:16:14 UTC] PHP Stack trace:
+[26-Mar-2019 17:16:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/AllSpartans.php:0
+[26-Mar-2019 17:16:48 UTC] PHP Warning:  include(../../../db/db_Connection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST336/hw/hw3/api/AllSpartans.php on line 2
+[26-Mar-2019 17:16:48 UTC] PHP Stack trace:
+[26-Mar-2019 17:16:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/AllSpartans.php:0
+[26-Mar-2019 17:16:48 UTC] PHP Warning:  include(): Failed opening '../../../db/db_Connection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST336/hw/hw3/api/AllSpartans.php on line 2
+[26-Mar-2019 17:16:48 UTC] PHP Stack trace:
+[26-Mar-2019 17:16:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/AllSpartans.php:0
+[26-Mar-2019 17:16:48 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/CST336/hw/hw3/api/AllSpartans.php on line 3
+[26-Mar-2019 17:16:48 UTC] PHP Stack trace:
+[26-Mar-2019 17:16:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/AllSpartans.php:0
+[26-Mar-2019 17:17:08 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'Spartans.Names' doesn't exist' in /home/ubuntu/workspace/CST336/hw/hw3/api/AllSpartans.php:6
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/hw/hw3/api/AllSpartans.php(6): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/hw/hw3/api/AllSpartans.php on line 6
+[26-Mar-2019 17:41:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE 1' at line 1' in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php(12): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 17:42:12 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE 1' at line 1' in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php(12): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 17:42:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'Spartans.CodeName' doesn't exist' in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php(12): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 17:47:02 UTC] PHP Warning:  include(../../../db/db_Connection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 2
+[26-Mar-2019 17:47:02 UTC] PHP Stack trace:
+[26-Mar-2019 17:47:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 17:47:02 UTC] PHP Warning:  include(): Failed opening '../../../db/db_Connection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 2
+[26-Mar-2019 17:47:02 UTC] PHP Stack trace:
+[26-Mar-2019 17:47:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 17:47:02 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 3
+[26-Mar-2019 17:47:02 UTC] PHP Stack trace:
+[26-Mar-2019 17:47:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 17:47:15 UTC] PHP Warning:  include(../../../db/db_Connection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 2
+[26-Mar-2019 17:47:15 UTC] PHP Stack trace:
+[26-Mar-2019 17:47:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 17:47:15 UTC] PHP Warning:  include(): Failed opening '../../../db/db_Connection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 2
+[26-Mar-2019 17:47:15 UTC] PHP Stack trace:
+[26-Mar-2019 17:47:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 17:47:15 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 3
+[26-Mar-2019 17:47:15 UTC] PHP Stack trace:
+[26-Mar-2019 17:47:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 17:56:53 UTC] PHP Warning:  include(../../../db/db_Connection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 2
+[26-Mar-2019 17:56:54 UTC] PHP Stack trace:
+[26-Mar-2019 17:56:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 17:56:54 UTC] PHP Warning:  include(): Failed opening '../../../db/db_Connection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 2
+[26-Mar-2019 17:56:54 UTC] PHP Stack trace:
+[26-Mar-2019 17:56:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 17:56:54 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 3
+[26-Mar-2019 17:56:54 UTC] PHP Stack trace:
+[26-Mar-2019 17:56:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 17:57:58 UTC] PHP Warning:  include(../../../db/db_Connection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 2
+[26-Mar-2019 17:57:58 UTC] PHP Stack trace:
+[26-Mar-2019 17:57:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 17:57:58 UTC] PHP Warning:  include(): Failed opening '../../../db/db_Connection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 2
+[26-Mar-2019 17:57:58 UTC] PHP Stack trace:
+[26-Mar-2019 17:57:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 17:57:58 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 3
+[26-Mar-2019 17:57:58 UTC] PHP Stack trace:
+[26-Mar-2019 17:57:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 17:58:36 UTC] PHP Warning:  include(../../../db/db_Connection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 2
+[26-Mar-2019 17:58:36 UTC] PHP Stack trace:
+[26-Mar-2019 17:58:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 17:58:36 UTC] PHP Warning:  include(): Failed opening '../../../db/db_Connection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 2
+[26-Mar-2019 17:58:36 UTC] PHP Stack trace:
+[26-Mar-2019 17:58:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 17:58:36 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 3
+[26-Mar-2019 17:58:36 UTC] PHP Stack trace:
+[26-Mar-2019 17:58:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 17:58:44 UTC] PHP Warning:  include(../../../db/db_Connection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 2
+[26-Mar-2019 17:58:44 UTC] PHP Stack trace:
+[26-Mar-2019 17:58:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 17:58:44 UTC] PHP Warning:  include(): Failed opening '../../../db/db_Connection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 2
+[26-Mar-2019 17:58:44 UTC] PHP Stack trace:
+[26-Mar-2019 17:58:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 17:58:44 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 3
+[26-Mar-2019 17:58:44 UTC] PHP Stack trace:
+[26-Mar-2019 17:58:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 17:59:42 UTC] PHP Warning:  include(../../../db/db_Connection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 2
+[26-Mar-2019 17:59:43 UTC] PHP Stack trace:
+[26-Mar-2019 17:59:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 17:59:43 UTC] PHP Warning:  include(): Failed opening '../../../db/db_Connection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 2
+[26-Mar-2019 17:59:43 UTC] PHP Stack trace:
+[26-Mar-2019 17:59:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 17:59:43 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 3
+[26-Mar-2019 17:59:43 UTC] PHP Stack trace:
+[26-Mar-2019 17:59:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:00:58 UTC] PHP Warning:  include(../../../db/db_Connection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 2
+[26-Mar-2019 18:00:58 UTC] PHP Stack trace:
+[26-Mar-2019 18:00:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:00:58 UTC] PHP Warning:  include(): Failed opening '../../../db/db_Connection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 2
+[26-Mar-2019 18:00:58 UTC] PHP Stack trace:
+[26-Mar-2019 18:00:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:00:58 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 3
+[26-Mar-2019 18:00:58 UTC] PHP Stack trace:
+[26-Mar-2019 18:00:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:01:46 UTC] PHP Warning:  include(../../../db/db_Connection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 2
+[26-Mar-2019 18:01:46 UTC] PHP Stack trace:
+[26-Mar-2019 18:01:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:01:46 UTC] PHP Warning:  include(): Failed opening '../../../db/db_Connection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 2
+[26-Mar-2019 18:01:46 UTC] PHP Stack trace:
+[26-Mar-2019 18:01:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:01:46 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 3
+[26-Mar-2019 18:01:46 UTC] PHP Stack trace:
+[26-Mar-2019 18:01:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:10:55 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:10:55 UTC] PHP Stack trace:
+[26-Mar-2019 18:10:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:10:55 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:10:55 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:10:55 UTC] PHP Stack trace:
+[26-Mar-2019 18:10:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:10:55 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:10:55 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:10:55 UTC] PHP Stack trace:
+[26-Mar-2019 18:10:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:10:55 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:10:55 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:10:55 UTC] PHP Stack trace:
+[26-Mar-2019 18:10:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:10:55 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:10:55 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:10:55 UTC] PHP Stack trace:
+[26-Mar-2019 18:10:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:10:55 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:10:55 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:10:55 UTC] PHP Stack trace:
+[26-Mar-2019 18:10:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:10:55 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:10:55 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:10:55 UTC] PHP Stack trace:
+[26-Mar-2019 18:10:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:10:55 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:10:55 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:10:55 UTC] PHP Stack trace:
+[26-Mar-2019 18:10:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:10:55 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:10:55 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:10:55 UTC] PHP Stack trace:
+[26-Mar-2019 18:10:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:10:55 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:10:55 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:10:55 UTC] PHP Stack trace:
+[26-Mar-2019 18:10:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:10:55 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:10:55 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:10:55 UTC] PHP Stack trace:
+[26-Mar-2019 18:10:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:10:55 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:10:55 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:10:55 UTC] PHP Stack trace:
+[26-Mar-2019 18:10:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:10:55 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:10:55 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:10:55 UTC] PHP Stack trace:
+[26-Mar-2019 18:10:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:10:55 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:10:55 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:10:55 UTC] PHP Stack trace:
+[26-Mar-2019 18:10:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:10:55 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:10:55 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:10:55 UTC] PHP Stack trace:
+[26-Mar-2019 18:10:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:10:55 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:10:55 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:10:55 UTC] PHP Stack trace:
+[26-Mar-2019 18:10:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:10:55 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:10:55 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:10:55 UTC] PHP Stack trace:
+[26-Mar-2019 18:10:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:10:55 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:10:55 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:10:55 UTC] PHP Stack trace:
+[26-Mar-2019 18:10:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:10:55 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:10:55 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:10:55 UTC] PHP Stack trace:
+[26-Mar-2019 18:10:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:10:55 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:10:55 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:10:55 UTC] PHP Stack trace:
+[26-Mar-2019 18:10:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:10:55 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:10:55 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:10:55 UTC] PHP Stack trace:
+[26-Mar-2019 18:10:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:10:55 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:10:55 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:10:55 UTC] PHP Stack trace:
+[26-Mar-2019 18:10:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:10:55 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:10:55 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:10:55 UTC] PHP Stack trace:
+[26-Mar-2019 18:10:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:10:55 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:10:55 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:10:55 UTC] PHP Stack trace:
+[26-Mar-2019 18:10:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:10:55 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:10:55 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:10:55 UTC] PHP Stack trace:
+[26-Mar-2019 18:10:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:10:55 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:10:55 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:10:55 UTC] PHP Stack trace:
+[26-Mar-2019 18:10:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:10:55 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:10:55 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:10:55 UTC] PHP Stack trace:
+[26-Mar-2019 18:10:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:10:55 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:10:55 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:10:55 UTC] PHP Stack trace:
+[26-Mar-2019 18:10:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:10:55 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:10:55 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:10:55 UTC] PHP Stack trace:
+[26-Mar-2019 18:10:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:10:55 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:10:55 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:10:55 UTC] PHP Stack trace:
+[26-Mar-2019 18:10:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:10:55 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:10:55 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:10:55 UTC] PHP Stack trace:
+[26-Mar-2019 18:10:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:10:55 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:10:55 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:10:55 UTC] PHP Stack trace:
+[26-Mar-2019 18:10:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:10:55 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:10:55 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:10:55 UTC] PHP Stack trace:
+[26-Mar-2019 18:10:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:10:55 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:11:17 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:11:17 UTC] PHP Stack trace:
+[26-Mar-2019 18:11:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:11:17 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:11:17 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:11:17 UTC] PHP Stack trace:
+[26-Mar-2019 18:11:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:11:17 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:11:17 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:11:17 UTC] PHP Stack trace:
+[26-Mar-2019 18:11:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:11:17 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:11:17 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:11:17 UTC] PHP Stack trace:
+[26-Mar-2019 18:11:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:11:17 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:11:17 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:11:17 UTC] PHP Stack trace:
+[26-Mar-2019 18:11:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:11:17 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:11:17 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:11:17 UTC] PHP Stack trace:
+[26-Mar-2019 18:11:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:11:17 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:11:17 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:11:17 UTC] PHP Stack trace:
+[26-Mar-2019 18:11:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:11:17 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:11:17 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:11:17 UTC] PHP Stack trace:
+[26-Mar-2019 18:11:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:11:17 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:11:17 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:11:17 UTC] PHP Stack trace:
+[26-Mar-2019 18:11:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:11:17 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:11:17 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:11:17 UTC] PHP Stack trace:
+[26-Mar-2019 18:11:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:11:17 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:11:17 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:11:17 UTC] PHP Stack trace:
+[26-Mar-2019 18:11:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:11:17 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:11:17 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:11:17 UTC] PHP Stack trace:
+[26-Mar-2019 18:11:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:11:17 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:11:17 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:11:17 UTC] PHP Stack trace:
+[26-Mar-2019 18:11:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:11:17 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:11:17 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:11:17 UTC] PHP Stack trace:
+[26-Mar-2019 18:11:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:11:17 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:11:17 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:11:17 UTC] PHP Stack trace:
+[26-Mar-2019 18:11:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:11:17 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:11:17 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:11:17 UTC] PHP Stack trace:
+[26-Mar-2019 18:11:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:11:17 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:11:17 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:11:17 UTC] PHP Stack trace:
+[26-Mar-2019 18:11:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:11:17 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:11:17 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:11:17 UTC] PHP Stack trace:
+[26-Mar-2019 18:11:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:11:17 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:11:17 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:11:17 UTC] PHP Stack trace:
+[26-Mar-2019 18:11:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:11:17 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:11:17 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:11:17 UTC] PHP Stack trace:
+[26-Mar-2019 18:11:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:11:17 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:11:17 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:11:17 UTC] PHP Stack trace:
+[26-Mar-2019 18:11:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:11:17 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:11:17 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:11:17 UTC] PHP Stack trace:
+[26-Mar-2019 18:11:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:11:17 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:11:17 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:11:17 UTC] PHP Stack trace:
+[26-Mar-2019 18:11:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:11:17 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:11:17 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:11:17 UTC] PHP Stack trace:
+[26-Mar-2019 18:11:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:11:17 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:11:17 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:11:17 UTC] PHP Stack trace:
+[26-Mar-2019 18:11:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:11:17 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:11:17 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:11:17 UTC] PHP Stack trace:
+[26-Mar-2019 18:11:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:11:17 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:11:17 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:11:17 UTC] PHP Stack trace:
+[26-Mar-2019 18:11:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:11:17 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:11:17 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:11:17 UTC] PHP Stack trace:
+[26-Mar-2019 18:11:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:11:17 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:11:17 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:11:17 UTC] PHP Stack trace:
+[26-Mar-2019 18:11:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:11:17 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:11:17 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:11:17 UTC] PHP Stack trace:
+[26-Mar-2019 18:11:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:11:17 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:11:17 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:11:17 UTC] PHP Stack trace:
+[26-Mar-2019 18:11:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:11:17 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:11:17 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:11:17 UTC] PHP Stack trace:
+[26-Mar-2019 18:11:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:11:17 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:11:17 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:11:17 UTC] PHP Stack trace:
+[26-Mar-2019 18:11:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:11:17 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:15:58 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:15:58 UTC] PHP Stack trace:
+[26-Mar-2019 18:15:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:15:58 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:15:58 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:15:58 UTC] PHP Stack trace:
+[26-Mar-2019 18:15:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:15:58 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:15:58 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:15:58 UTC] PHP Stack trace:
+[26-Mar-2019 18:15:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:15:58 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:15:58 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:15:58 UTC] PHP Stack trace:
+[26-Mar-2019 18:15:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:15:58 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:15:58 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:15:58 UTC] PHP Stack trace:
+[26-Mar-2019 18:15:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:15:58 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:15:58 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:15:58 UTC] PHP Stack trace:
+[26-Mar-2019 18:15:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:15:58 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:15:58 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:15:58 UTC] PHP Stack trace:
+[26-Mar-2019 18:15:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:15:58 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:15:58 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:15:58 UTC] PHP Stack trace:
+[26-Mar-2019 18:15:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:15:58 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:15:58 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:15:58 UTC] PHP Stack trace:
+[26-Mar-2019 18:15:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:15:58 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:15:58 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:15:58 UTC] PHP Stack trace:
+[26-Mar-2019 18:15:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:15:58 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:15:58 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:15:58 UTC] PHP Stack trace:
+[26-Mar-2019 18:15:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:15:58 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:15:58 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:15:58 UTC] PHP Stack trace:
+[26-Mar-2019 18:15:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:15:58 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:15:58 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:15:58 UTC] PHP Stack trace:
+[26-Mar-2019 18:15:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:15:58 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:15:58 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:15:58 UTC] PHP Stack trace:
+[26-Mar-2019 18:15:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:15:58 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:15:58 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:15:58 UTC] PHP Stack trace:
+[26-Mar-2019 18:15:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:15:58 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:15:58 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:15:58 UTC] PHP Stack trace:
+[26-Mar-2019 18:15:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:15:58 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:15:58 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:15:58 UTC] PHP Stack trace:
+[26-Mar-2019 18:15:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:15:58 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:15:58 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:15:58 UTC] PHP Stack trace:
+[26-Mar-2019 18:15:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:15:58 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:15:58 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:15:58 UTC] PHP Stack trace:
+[26-Mar-2019 18:15:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:15:58 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:15:58 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:15:58 UTC] PHP Stack trace:
+[26-Mar-2019 18:15:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:15:58 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:15:58 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:15:58 UTC] PHP Stack trace:
+[26-Mar-2019 18:15:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:15:58 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:15:58 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:15:58 UTC] PHP Stack trace:
+[26-Mar-2019 18:15:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:15:58 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:15:58 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:15:58 UTC] PHP Stack trace:
+[26-Mar-2019 18:15:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:15:58 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:15:58 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:15:58 UTC] PHP Stack trace:
+[26-Mar-2019 18:15:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:15:58 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:15:58 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:15:58 UTC] PHP Stack trace:
+[26-Mar-2019 18:15:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:15:58 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:15:58 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:15:58 UTC] PHP Stack trace:
+[26-Mar-2019 18:15:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:15:58 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:15:58 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:15:58 UTC] PHP Stack trace:
+[26-Mar-2019 18:15:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:15:58 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:15:58 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:15:58 UTC] PHP Stack trace:
+[26-Mar-2019 18:15:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:15:58 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:15:58 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:15:58 UTC] PHP Stack trace:
+[26-Mar-2019 18:15:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:15:58 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:15:58 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:15:58 UTC] PHP Stack trace:
+[26-Mar-2019 18:15:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:15:58 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:15:58 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:15:58 UTC] PHP Stack trace:
+[26-Mar-2019 18:15:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:15:58 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:15:58 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:15:58 UTC] PHP Stack trace:
+[26-Mar-2019 18:15:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:15:58 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12
+[26-Mar-2019 18:15:58 UTC] PHP Warning:  strcmp() expects parameter 2 to be string, array given in /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php on line 12
+[26-Mar-2019 18:15:58 UTC] PHP Stack trace:
+[26-Mar-2019 18:15:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:0
+[26-Mar-2019 18:15:58 UTC] PHP   2. strcmp() /home/ubuntu/workspace/CST336/hw/hw3/api/SearchSpartans.php:12

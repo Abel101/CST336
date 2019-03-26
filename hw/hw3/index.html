@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Sign Up - PHP Web API Version </title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/styles.css" type="text/css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+       
+        <script>
+            /*global $*/
+            
+            $(document).ready(function() {
+                
+                $("#Name").on('change', function() {
+                    $.ajax({
+
+                        type: "GET",
+                        url: "api/SearchSpartans.php",
+                        dataType: "json",
+                        data: { "name":$("#Name").val()},
+                        success: function(data,status) {
+                        //alert(data);
+                            if(data.here){
+                                $("#info").html(data["CodeName"]);
+                                $("#info").html(data["ID"]);
+                                $("#info").html(data["Description"]);
+                            }
+                            else {
+                                $("#Name").html("Username is unavailable!");
+                                $("#Name").css("color", "red");
+                            }
+                        },
+                        complete: function(data,status) { //optional, used for debugging purposes
+                        //alert(status);
+                        }
+                    
+                    });//ajax  
+                });//username
+                
+            $.ajax({
+                type: "GET",
+                url: "api/AllSpartans.php",
+                dataType: "json",
+                success: function(data, status) {
+                    data.forEach(function(key) {
+                        $("#products").append("<option value=" + key["ID"] + ">" + key["CodeName"] + "</option>");
+                    });
+                    $("#info").html(data['CodeName']+data['ID']);
+                    $("#info").html(data['Description']);
+                }
+            });
+            });//document
+        </script>
+
+    </head>
+    
+    <body>
+        <fieldset>
+            <legend class= "jumbotron">
+               <h1>Spartan List</h1>
+            </legend>
+            
+            Name: <input type="text" id="Name" name="Name"  class="border border-primary" /> <br />
+            Number: <input type="text" id="number" name="Number"  class="border border-primary" /> <br />
+            
+            List:
+            <tr>
+                <th> <select name="products" id="products">
+                        <option value=""> -Select One- </option>
+                    </select>
+                </th>
+          
+            <br />
+            
+            <button id="click"> Search</button>
+            <span id="info"></span>
+            
+
+        </fieldset>
+    </body>
+</html>

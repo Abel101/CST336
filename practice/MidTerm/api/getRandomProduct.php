@@ -1,8 +1,8 @@
 <?php
 $product = array();
 $productsArray = array();
-include '../../../inc/dbConnection.php';
-$conn = getDatabaseConnection("midtermP");
+include '../../../db/db_connection.php';
+$conn = getDatabaseConnection("MidTerm");
 $sql_1 = "SELECT * FROM mp_product ORDER BY productName";
 $stmt = $conn->prepare($sql_1);
 $stmt->execute();

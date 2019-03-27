@@ -1,6 +1,6 @@
 <?php
-include '../../../inc/dbConnection.php';
-$conn = getDatabaseConnection("midtermP");
+include '../../../db/db_connection.php';
+$conn = getDatabaseConnection("MidTerm");
 $promoCode = $_GET['promoCode'];
 $namedParameters = array();
 $sql = "SELECT * FROM mp_codes ORDER BY promoCode WHERE 1";

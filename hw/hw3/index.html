@@ -1,82 +1,190 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title> Sign Up - PHP Web API Version </title>
+        <title> HW 3  </title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="css/styles.css" type="text/css" />
+        <link rel="stylesheet" href="css/style.css" />
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
        
         <script>
             /*global $*/
+            let total =0;
+            let subtotal =0;
+            let delivery=4;
+            let disamount=0;
+            let disper;
+            let disCode;
             
-            $(document).ready(function() {
-                
-                $("#Name").on('change', function() {
-                    $.ajax({
+    $(document).ready(function() {
+           $("#name").on("change",function(){
+               $.ajax({
+                   type: "GET",
+                   url:"api/Names.php",
+                   dataType:"json",
+                   data:{},
+                   success: function(data, status){
+                       data.forEach(function(key){
+                           if($("#name").val()===key){
+                               delivery=0;
+                               $("#del").html("You are a returing Customer Free Shipping for you");
+                               $("#sub").html("$"+ subtotal);
+                               total= subtotal+delivery;
+                               $("#info").html("$"+ total);
+                           }
+                           else{
+                               $("#name").html("Name not in data base");
+                               $("#name").css("color","red");
+                           }
+                       });
+                   }
+               });//ajax
+           })//name
 
-                        type: "GET",
-                        url: "api/SearchSpartans.php",
-                        dataType: "json",
-                        data: { "name":$("#Name").val()},
-                        success: function(data,status) {
-                        //alert(data);
-                            if(data.here){
-                                $("#info").html(data["CodeName"]);
-                                $("#info").html(data["ID"]);
-                                $("#info").html(data["Description"]);
-                            }
-                            else {
-                                $("#Name").html("Username is unavailable!");
-                                $("#Name").css("color", "red");
-                            }
-                        },
-                        complete: function(data,status) { //optional, used for debugging purposes
-                        //alert(status);
-                        }
-                    
-                    });//ajax  
-                });//username
-                
-            $.ajax({
+           $.ajax({
                 type: "GET",
-                url: "api/AllSpartans.php",
+                url: "api/promocodes.php",
                 dataType: "json",
+                data: {},
                 success: function(data, status) {
-                    data.forEach(function(key) {
-                        $("#products").append("<option value=" + key["ID"] + ">" + key["CodeName"] + "</option>");
-                    });
-                    $("#info").html(data['CodeName']+data['ID']);
-                    $("#info").html(data['Description']);
+                    $("#promo").html(data.promo);
+                    //discountAmount = subtotal * data.discount;
+                    disper = data.discount;
+                    //alert(discountPercent);
+                    $("#info").html("$" + disamount);
+                    $("#promo").html(data.description);
+                    disCode = data.promo;
                 }
-            });
-            });//document
+            }); //ajax 
+           
+          $(document).change(function(){
+              subtotal=0;
+              total=0;
+              if(document.getElementById("MeatBalls").checked){
+                  subtotal+=8;
+              }
+               if(document.getElementById("Chicken").checked){
+                  subtotal+=7;
+              }
+               if(document.getElementById("Bacon").checked){
+                  subtotal+=9;
+              }
+               if(document.getElementById("Salami").checked){
+                  subtotal+=5;
+              }
+               if (disCount == "half" && document.getElementById("MeatBalls").checked) {
+                    subtotal /=2;
+              }
+               if (disCount == "foot" && document.getElementById("MeatBalls").checked) {
+                    subtotal -= 2;
+                }
+               if (disCount == "six" && document.getElementById("MeatBalls").checked) {
+                    subtotal -= 1;
+                }
+                if (disCount == "supersub" && document.getElementById("MeatBalls").checked) {
+                    subtotal -= 8;
+                }
+               if (disCount == "half" && document.getElementById("Chicken").checked) {
+                    subtotal /=2;
+              }
+               if (disCount == "foot" && document.getElementById("Chicken").checked) {
+                    subtotal -= 2;
+                }
+               if (disCount == "six" && document.getElementById("Chicken").checked) {
+                    subtotal -= 1;
+                }
+                if (disCount == "supersub" && document.getElementById("Chicken").checked) {
+                    subtotal -= 8;
+                }
+                
+                 if (disCount == "half" && document.getElementById("Bacon").checked) {
+                    subtotal /=2;
+              }
+               if (disCount == "foot" && document.getElementById("Bacon").checked) {
+                    subtotal -= 2;
+                }
+               if (disCount == "six" && document.getElementById("Bacon").checked) {
+                    subtotal -= 1;
+                }
+                if (disCount == "supersub" && document.getElementById("Bacon").checked) {
+                    subtotal -= 8;
+                }
+                
+                 if (disCount == "half" && document.getElementById("Salami").checked) {
+                    subtotal /=2;
+              }
+               if (disCount == "foot" && document.getElementById("Salami").checked) {
+                    subtotal -= 2;
+                }
+               if (disCount == "six" && document.getElementById("Salaomi").checked) {
+                    subtotal -= 1;
+                }
+                if (disCount == "supersub" && document.getElementById("Salami").checked) {
+                    subtotal -= 8;
+                }
+                $("#info").html("$"+subtotal);
+                $("#info").html("$"+delivery);
+                total=subtotal+delivery;
+                $("#info").html("$"+total);
+             $("#click").on("click",function(){
+              $("info").html("Your order is on the way! :-)");
+          });
+          }); 
+           
+        });//document
         </script>
 
     </head>
     
     <body>
-        <fieldset>
             <legend class= "jumbotron">
-               <h1>Spartan List</h1>
+               <h1>SubDrive</h1>
             </legend>
             
-            Name: <input type="text" id="Name" name="Name"  class="border border-primary" /> <br />
-            Number: <input type="text" id="number" name="Number"  class="border border-primary" /> <br />
-            
-            List:
-            <tr>
-                <th> <select name="products" id="products">
-                        <option value=""> -Select One- </option>
+            Name: <input type="text" id="name"/> <br />
+            Location: <input type="text" id="loc" /> <br />
+            <br>
+            Bread:
+              <select name="category" id="categories">
+                        <option value=""> Select One </option>
+                        <option value="SourDough">SourDough</option>
+                        <option value="Italian Herbs&Cheese"> Italian Herbs & Cheeese </option>
+                        <option value="Monterey Cheddar Cheese">Monterey Cheddar Cheese</option>
+                        <option value="9 -Grain">9-Grain</option>
+                        <option value="Honey Oat">Honey Oat</option>
                     </select>
-                </th>
-          
+        <br>
+            Protein
+            <br>
+               <input type="checkbox" id="MeatBalls"><label for="MeatBalls">MeatBalls -$8</label>
+               <input type="checkbox" id="Chicken"><label for="Chicken">Chicken-$7</label>
+               <input type="checkbox" id="Bacon"><label for="Bacon">Bacon - $9</label>
+               <input type="checkbox" id="Salomoi"><label for="Salomoi">Salomoi - $5</label>
             <br />
+            <br>
+            Toppings(if any):
+            <br>
+               <input type="checkbox" id="Lettuce"><label for="Lettuce">Lettuce</label>
+               <input type="checkbox" id="Tomato"><label for="Tomato">Tomato</label>
+               <input type="checkbox" id="Spinach"><label for="Spinach">Spinach</label>
+               <input type="checkbox" id="Bell Peppers"><label for="Bell Peppers">Bell Peppers</label>
+               <input type="checkbox" id="Jalpenos"><label for="Jalpenos">Jalapenos</label>
+               <input type="checkbox" id="Olives"><label for="Olives">Olives</label>
+               <input type="checkbox" id="Cucumbers"><label for="Cucumbers">Cucumbers</label>
+               <input type="checkbox" id="Salomoi"><label for="Salomoi">Salomoi</label>
+               <br>
+            PromoCode:<input type="text" id="promo"> <br>
+            <br>
+            Tax 10% <span id id="tax"></span>
+            <br>
+            Delivery <span id="del"></span>
+            <br>
             
-            <button id="click"> Search</button>
+            Subtotal <span id="sub"></span>
+            <button id="click"> Order Sub</button>
+            
             <span id="info"></span>
             
 
-        </fieldset>
     </body>
 </html>

@@ -1,6 +1,6 @@
 <?php
-include '../../../inc/dbConnection.php';
-$conn = getDatabaseConnection("midtermP");
+include '../../../db/db_connection.php';
+$conn = getDatabaseConnection("MidTerm");
 $sql = "SELECT * FROM mp_codes ORDER BY promoCode";
 $stmt = $conn->prepare($sql);
 $stmt->execute();

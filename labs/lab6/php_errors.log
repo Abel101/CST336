@@ -1093,3 +1093,260 @@ Stack trace:
 #0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(41): PDOStatement->execute(Array)
 #1 {main}
   thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 41
+[03-Apr-2019 00:13:57 UTC] PHP Warning:  include(../../../db/db_connection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST336/labs/lab6/api/getCategories.php on line 2
+[03-Apr-2019 00:13:57 UTC] PHP Stack trace:
+[03-Apr-2019 00:13:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab6/api/getCategories.php:0
+[03-Apr-2019 00:13:57 UTC] PHP Warning:  include(): Failed opening '../../../db/db_connection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST336/labs/lab6/api/getCategories.php on line 2
+[03-Apr-2019 00:13:57 UTC] PHP Stack trace:
+[03-Apr-2019 00:13:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab6/api/getCategories.php:0
+[03-Apr-2019 00:13:57 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/CST336/labs/lab6/api/getCategories.php on line 3
+[03-Apr-2019 00:13:57 UTC] PHP Stack trace:
+[03-Apr-2019 00:13:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab6/api/getCategories.php:0
+[03-Apr-2019 00:15:15 UTC] PHP Warning:  include(../../../db/db_connection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST336/labs/lab6/api/getCategories.php on line 2
+[03-Apr-2019 00:15:15 UTC] PHP Stack trace:
+[03-Apr-2019 00:15:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab6/api/getCategories.php:0
+[03-Apr-2019 00:15:15 UTC] PHP Warning:  include(): Failed opening '../../../db/db_connection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST336/labs/lab6/api/getCategories.php on line 2
+[03-Apr-2019 00:15:15 UTC] PHP Stack trace:
+[03-Apr-2019 00:15:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab6/api/getCategories.php:0
+[03-Apr-2019 00:15:15 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/CST336/labs/lab6/api/getCategories.php on line 3
+[03-Apr-2019 00:15:15 UTC] PHP Stack trace:
+[03-Apr-2019 00:15:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab6/api/getCategories.php:0
+[03-Apr-2019 00:15:19 UTC] PHP Warning:  include(../../../db/db_connection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST336/labs/lab6/api/getCategories.php on line 2
+[03-Apr-2019 00:15:19 UTC] PHP Stack trace:
+[03-Apr-2019 00:15:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab6/api/getCategories.php:0
+[03-Apr-2019 00:15:19 UTC] PHP Warning:  include(): Failed opening '../../../db/db_connection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST336/labs/lab6/api/getCategories.php on line 2
+[03-Apr-2019 00:15:19 UTC] PHP Stack trace:
+[03-Apr-2019 00:15:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab6/api/getCategories.php:0
+[03-Apr-2019 00:15:19 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/CST336/labs/lab6/api/getCategories.php on line 3
+[03-Apr-2019 00:15:19 UTC] PHP Stack trace:
+[03-Apr-2019 00:15:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab6/api/getCategories.php:0
+[10-Apr-2019 22:23:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'order clause'' in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 16
+[11-Apr-2019 23:04:08 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'order clause'' in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 16
+[11-Apr-2019 23:04:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'order clause'' in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 16
+[11-Apr-2019 23:13:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'order clause'' in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 16
+[11-Apr-2019 23:15:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'order clause'' in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 16
+[11-Apr-2019 23:18:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'order clause'' in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 16
+[11-Apr-2019 23:21:37 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'order clause'' in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 16
+[11-Apr-2019 23:22:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'order clause'' in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 16
+[11-Apr-2019 23:22:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'order clause'' in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 16
+[11-Apr-2019 23:27:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'order clause'' in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 16
+[11-Apr-2019 23:41:03 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'order clause'' in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 16
+[12-Apr-2019 17:50:12 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'order clause'' in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 16
+[12-Apr-2019 17:50:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'order clause'' in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php(16): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 16
+[12-Apr-2019 22:29:18 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 18
+[12-Apr-2019 22:29:18 UTC] PHP Stack trace:
+[12-Apr-2019 22:29:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:0
+[12-Apr-2019 22:34:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'order clause'' in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php(19): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 19
+[12-Apr-2019 22:38:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'order clause'' in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php(19): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 19
+[12-Apr-2019 22:38:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'order clause'' in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php(19): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 19
+[12-Apr-2019 22:39:09 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'order clause'' in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php(19): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 19
+[12-Apr-2019 22:41:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'order clause'' in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php(19): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 19
+[12-Apr-2019 22:41:57 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'order clause'' in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php(19): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 19
+[12-Apr-2019 22:45:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'order clause'' in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php(19): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 19
+[12-Apr-2019 22:45:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'order clause'' in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php(19): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 19
+[12-Apr-2019 22:46:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'order clause'' in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php(19): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 19
+[12-Apr-2019 22:48:43 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 19
+[12-Apr-2019 22:48:43 UTC] PHP Stack trace:
+[12-Apr-2019 22:48:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:0
+[12-Apr-2019 22:49:20 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 19
+[12-Apr-2019 22:49:20 UTC] PHP Stack trace:
+[12-Apr-2019 22:49:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:0
+[12-Apr-2019 22:49:58 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 19
+[12-Apr-2019 22:49:58 UTC] PHP Stack trace:
+[12-Apr-2019 22:49:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:0
+[12-Apr-2019 22:50:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:40
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(40): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 40
+[12-Apr-2019 22:50:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:40
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(40): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 40
+[12-Apr-2019 22:50:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:40
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(40): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 40
+[12-Apr-2019 22:50:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:40
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(40): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 40
+[12-Apr-2019 22:50:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:40
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(40): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 40
+[12-Apr-2019 22:50:12 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:40
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(40): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 40
+[12-Apr-2019 22:50:12 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:40
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(40): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 40
+[12-Apr-2019 22:50:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:40
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(40): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 40
+[12-Apr-2019 22:50:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php:40
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php(40): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab6/api/getSearchResults.php on line 40
+[12-Apr-2019 22:50:37 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 19
+[12-Apr-2019 22:50:37 UTC] PHP Stack trace:
+[12-Apr-2019 22:50:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:0
+[12-Apr-2019 22:51:05 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 19
+[12-Apr-2019 22:51:05 UTC] PHP Stack trace:
+[12-Apr-2019 22:51:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:0
+[12-Apr-2019 22:51:39 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 19
+[12-Apr-2019 22:51:39 UTC] PHP Stack trace:
+[12-Apr-2019 22:51:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:0
+[12-Apr-2019 22:51:55 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 19
+[12-Apr-2019 22:51:55 UTC] PHP Stack trace:
+[12-Apr-2019 22:51:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:0
+[12-Apr-2019 22:52:41 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 19
+[12-Apr-2019 22:52:41 UTC] PHP Stack trace:
+[12-Apr-2019 22:52:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:0
+[12-Apr-2019 22:53:24 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 19
+[12-Apr-2019 22:53:24 UTC] PHP Stack trace:
+[12-Apr-2019 22:53:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:0
+[12-Apr-2019 23:07:13 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 19
+[12-Apr-2019 23:07:13 UTC] PHP Stack trace:
+[12-Apr-2019 23:07:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:0
+[12-Apr-2019 23:09:05 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 19
+[12-Apr-2019 23:09:05 UTC] PHP Stack trace:
+[12-Apr-2019 23:09:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:0
+[12-Apr-2019 23:09:17 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 19
+[12-Apr-2019 23:09:17 UTC] PHP Stack trace:
+[12-Apr-2019 23:09:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:0
+[12-Apr-2019 23:09:35 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 19
+[12-Apr-2019 23:09:35 UTC] PHP Stack trace:
+[12-Apr-2019 23:09:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:0
+[12-Apr-2019 23:11:44 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 19
+[12-Apr-2019 23:11:44 UTC] PHP Stack trace:
+[12-Apr-2019 23:11:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:0
+[12-Apr-2019 23:12:02 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 19
+[12-Apr-2019 23:12:02 UTC] PHP Stack trace:
+[12-Apr-2019 23:12:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:0
+[12-Apr-2019 23:12:45 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 19
+[12-Apr-2019 23:12:45 UTC] PHP Stack trace:
+[12-Apr-2019 23:12:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:0
+[12-Apr-2019 23:19:29 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 19
+[12-Apr-2019 23:19:29 UTC] PHP Stack trace:
+[12-Apr-2019 23:19:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:0
+[12-Apr-2019 23:19:47 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 19
+[12-Apr-2019 23:19:47 UTC] PHP Stack trace:
+[12-Apr-2019 23:19:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:0
+[12-Apr-2019 23:26:19 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 19
+[12-Apr-2019 23:26:19 UTC] PHP Stack trace:
+[12-Apr-2019 23:26:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:0
+[12-Apr-2019 23:26:29 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 19
+[12-Apr-2019 23:26:29 UTC] PHP Stack trace:
+[12-Apr-2019 23:26:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:0
+[12-Apr-2019 23:28:07 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 19
+[12-Apr-2019 23:28:07 UTC] PHP Stack trace:
+[12-Apr-2019 23:28:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:0
+[12-Apr-2019 23:29:35 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 19
+[12-Apr-2019 23:29:35 UTC] PHP Stack trace:
+[12-Apr-2019 23:29:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:0
+[12-Apr-2019 23:30:35 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 19
+[12-Apr-2019 23:30:35 UTC] PHP Stack trace:
+[12-Apr-2019 23:30:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:0
+[12-Apr-2019 23:32:50 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php on line 19
+[12-Apr-2019 23:32:50 UTC] PHP Stack trace:
+[12-Apr-2019 23:32:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab6/api/getProducts.php:0

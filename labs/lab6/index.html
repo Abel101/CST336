@@ -19,7 +19,6 @@
                     url: "api/getProducts.php",
                     dataType: "json",
                     success: function(data,status) {
-                      //alert(data[0].productName);
                       data.forEach(function(product){
                           $("#products").append("<div class='row'>" + 
                                                 "<div class='col1'>" + product.productName + "</div>"+

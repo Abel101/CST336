@@ -1,4 +1,10 @@
-
+body{
+    text-align: center;
+    background-color: darkgrey;
+    padding:0px;
+    margin: 0px;
+    
+}
 .jumbotron{
     background-color: green;
     outline-color: rgb(201,76,76);
@@ -6,9 +12,5 @@
 
 name{
     font-weight: bold;
-}
-body{
-    text-align: center;
-    padding: 0px;
-    
+    color: green;
 }

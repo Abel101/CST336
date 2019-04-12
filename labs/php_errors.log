@@ -1,0 +1,15 @@
+[10-Apr-2019 22:21:07 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/CST336/labs/lab7/loginProcess.php on line 12
+[10-Apr-2019 22:21:07 UTC] PHP Stack trace:
+[10-Apr-2019 22:21:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab7/loginProcess.php:0
+[10-Apr-2019 22:22:46 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/CST336/labs/lab7/loginProcess.php on line 12
+[10-Apr-2019 22:22:46 UTC] PHP Stack trace:
+[10-Apr-2019 22:22:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab7/loginProcess.php:0
+[11-Apr-2019 23:15:16 UTC] PHP Warning:  include(../../../db/db_connection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST336/labs/lab7/loginProcess.php on line 6
+[11-Apr-2019 23:15:16 UTC] PHP Stack trace:
+[11-Apr-2019 23:15:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab7/loginProcess.php:0
+[11-Apr-2019 23:15:16 UTC] PHP Warning:  include(): Failed opening '../../../db/db_connection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST336/labs/lab7/loginProcess.php on line 6
+[11-Apr-2019 23:15:16 UTC] PHP Stack trace:
+[11-Apr-2019 23:15:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab7/loginProcess.php:0
+[11-Apr-2019 23:15:16 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/CST336/labs/lab7/loginProcess.php on line 8
+[11-Apr-2019 23:15:16 UTC] PHP Stack trace:
+[11-Apr-2019 23:15:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab7/loginProcess.php:0

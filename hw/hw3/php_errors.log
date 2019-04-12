@@ -867,3 +867,15 @@ Stack trace:
 [27-Mar-2019 21:52:55 UTC] PHP Fatal error:  Call to undefined function aray() in /home/ubuntu/workspace/CST336/hw/hw3/api/promocodes.php on line 3
 [27-Mar-2019 21:52:55 UTC] PHP Stack trace:
 [27-Mar-2019 21:52:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/promocodes.php:0
+[27-Mar-2019 21:55:04 UTC] PHP Fatal error:  Call to undefined function aray() in /home/ubuntu/workspace/CST336/hw/hw3/api/promocodes.php on line 3
+[27-Mar-2019 21:55:04 UTC] PHP Stack trace:
+[27-Mar-2019 21:55:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/promocodes.php:0
+[27-Mar-2019 21:57:47 UTC] PHP Fatal error:  Call to undefined function aray() in /home/ubuntu/workspace/CST336/hw/hw3/api/promocodes.php on line 3
+[27-Mar-2019 21:57:47 UTC] PHP Stack trace:
+[27-Mar-2019 21:57:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/promocodes.php:0
+[27-Mar-2019 21:58:05 UTC] PHP Fatal error:  Call to undefined function aray() in /home/ubuntu/workspace/CST336/hw/hw3/api/promocodes.php on line 3
+[27-Mar-2019 21:58:05 UTC] PHP Stack trace:
+[27-Mar-2019 21:58:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/promocodes.php:0
+[27-Mar-2019 21:58:09 UTC] PHP Fatal error:  Call to undefined function aray() in /home/ubuntu/workspace/CST336/hw/hw3/api/promocodes.php on line 3
+[27-Mar-2019 21:58:09 UTC] PHP Stack trace:
+[27-Mar-2019 21:58:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/hw/hw3/api/promocodes.php:0

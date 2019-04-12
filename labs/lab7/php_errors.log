@@ -1,0 +1,620 @@
+[11-Apr-2019 23:16:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[11-Apr-2019 23:16:21 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[11-Apr-2019 23:16:21 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[11-Apr-2019 23:16:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[11-Apr-2019 23:16:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[11-Apr-2019 23:16:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[11-Apr-2019 23:16:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[11-Apr-2019 23:16:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[11-Apr-2019 23:16:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[11-Apr-2019 23:16:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[11-Apr-2019 23:16:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[11-Apr-2019 23:16:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[11-Apr-2019 23:16:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[11-Apr-2019 23:16:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[11-Apr-2019 23:16:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[11-Apr-2019 23:16:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[11-Apr-2019 23:16:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:15:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:15:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:15:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:15:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:15:21 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:15:21 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:15:21 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:15:21 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:15:21 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:15:21 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:15:21 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:15:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:15:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:15:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:15:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:15:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:15:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:15:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:15:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:15:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:15:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:15:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:15:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:15:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:15:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:15:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:15:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:15:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:15:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:15:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:26:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:26:45 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:26:45 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:26:45 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:26:45 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:26:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:26:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:26:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:26:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:26:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:26:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:26:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:26:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:26:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:26:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:26:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:26:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:26:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:26:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:26:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:26:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:26:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:26:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:26:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:26:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:26:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:26:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:26:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:26:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:26:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:26:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:26:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:26:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:26:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:26:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:27:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:27:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:27:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:27:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:27:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:27:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:27:45 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:27:45 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:27:45 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:27:45 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:27:45 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:27:45 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:27:45 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:27:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:27:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:27:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:27:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:27:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:28:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:28:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:28:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:28:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:28:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:28:12 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:28:12 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:30:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:30:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:30:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:30:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:30:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:30:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:30:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:30:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:30:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:30:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:30:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:30:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:30:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:30:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:30:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:30:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[12-Apr-2019 23:30:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productPrice' in 'field list'' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18

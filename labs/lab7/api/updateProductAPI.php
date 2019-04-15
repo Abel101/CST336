@@ -14,7 +14,7 @@ if (!isset($_SESSION['adminName'])) {
     //$productId = $_GET['productId'];
     
     $sql = "UPDATE om_product
-    SET productPrice = :productPrice,
+    SET productPrice = :price,
     productName = :productName, 
     productDescription =  :productDescription, 
     productImage = :productImage,

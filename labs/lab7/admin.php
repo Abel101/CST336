@@ -33,7 +33,7 @@ if (!isset($_SESSION['adminName'])) {
                 $.ajax({
 
                     type: "GET",
-                    url: "../lab6/api/getProducts.php",
+                    url: "api/getProducts.php",
                     dataType: "json",
                     success: function(data,status) {
                       //alert(data[0].productName);
@@ -46,7 +46,7 @@ if (!isset($_SESSION['adminName'])) {
                                                 "<input type='hidden' name='productId' value='"+ product.productId + "'>" +
                                                 "<button class=\"btn btn-outline-danger\">Delete</button></form>" +
                                                 "<a target='productIframe' onclick='openModal()' href='productInfo.php?productId="+product.productId+"'> " + product.productName + "</a></div>"+
-                                                "<div class='col2'>"+"$" + product.productPrice + "</div>"+
+                                                "<div class='col2'>"+"$" + product.price + "</div>"+
                                                 "</div><br>");
                       })
                     },

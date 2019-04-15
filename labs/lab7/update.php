@@ -29,7 +29,7 @@
                     success: function(data, status) {
                          $("#productName").val(data["productName"]);
                          $("#productDescription").val(data["productDescription"]);
-                         $("#productPrice").val(data["productPrice"]);
+                         $("#productPrice").val(data["price"]);
                          $("#productImage").val(data["productImage"]);
                          $("#catId").val(data["catId"]).change();
                     }
@@ -49,7 +49,7 @@
                             dataType: "json",
                             data:{"productId": <?=$_GET['productId']?>,
                                 "productDescription": $("#productDescription").val(),
-                                "productPrice": $("#productPrice").val(),
+                                "price": $("#productPrice").val(),
                                 "productName": $("#productName").val(),
                                 "catId": $("#catId").val(),
                                 "productImage": $("#productImage").val()

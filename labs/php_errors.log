@@ -13,3 +13,9 @@
 [11-Apr-2019 23:15:16 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/CST336/labs/lab7/loginProcess.php on line 8
 [11-Apr-2019 23:15:16 UTC] PHP Stack trace:
 [11-Apr-2019 23:15:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab7/loginProcess.php:0
+[15-Apr-2019 19:25:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'ottermart'' in /home/ubuntu/workspace/CST336/db/db_connection.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/db/db_connection.php(18): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/CST336/labs/lab7/delete.php(10): getDatabaseConnection('ottermart')
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336/db/db_connection.php on line 18

@@ -1,0 +1,10 @@
+body{
+    text-align: center;
+    padding: 0px;
+    background-color: lightgreen;
+    font-weight: bold;
+    
+}
+#name{
+    text-transform: capitalize;
+}

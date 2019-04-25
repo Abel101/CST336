@@ -216,3 +216,28 @@ Stack trace:
 #0 /home/ubuntu/workspace/CST336/hw/hw4/api/UpdatePoke.php(11): PDOStatement->execute()
 #1 {main}
   thrown in /home/ubuntu/workspace/CST336/hw/hw4/api/UpdatePoke.php on line 11
+[23-Apr-2019 23:04:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '4' for key 'PRIMARY'' in /home/ubuntu/workspace/CST336/hw/hw4/api/UpdatePoke.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/hw/hw4/api/UpdatePoke.php(11): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/hw/hw4/api/UpdatePoke.php on line 11
+[23-Apr-2019 23:04:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '4' for key 'PRIMARY'' in /home/ubuntu/workspace/CST336/hw/hw4/api/UpdatePoke.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/hw/hw4/api/UpdatePoke.php(11): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/hw/hw4/api/UpdatePoke.php on line 11
+[23-Apr-2019 23:04:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '4' for key 'PRIMARY'' in /home/ubuntu/workspace/CST336/hw/hw4/api/UpdatePoke.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/hw/hw4/api/UpdatePoke.php(11): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/hw/hw4/api/UpdatePoke.php on line 11
+[23-Apr-2019 23:11:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/CST336/hw/hw4/api/UpdatePoke.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/hw/hw4/api/UpdatePoke.php(14): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/hw/hw4/api/UpdatePoke.php on line 14
+[23-Apr-2019 23:15:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'' in /home/ubuntu/workspace/CST336/hw/hw4/api/UpdatePoke.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/hw/hw4/api/UpdatePoke.php(11): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/hw/hw4/api/UpdatePoke.php on line 11

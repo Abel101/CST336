@@ -34,6 +34,9 @@
                         dataType: "json",
                         data: {"name": pokeName, "id": pokeId },
                         success: function(data, status) {
+                           $("#keypast").append(data.Name)
+                           
+                           ;
                         },
                     }); // update call
                      
@@ -78,6 +81,9 @@
             Weight: <span id="weight"></span><br>
             
              <img id="pokeImg" src=""><br>
+             
+             
+             <span id="keypast">Last Search:</span>
             
           
     </body>

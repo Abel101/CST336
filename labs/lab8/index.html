@@ -4,19 +4,50 @@
 <title> Pixabay API Demo </title>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <style>
-body {
-text-align: center;
-}
-img {
-    border-radius: 20px;
-    padding:15px;
-}
-.favorite{
-    cursor: pointer;
-}
+    body {
+        text-align: center;
+        font-family: monospace;
+        color: purple;
+    }
+    img {
+        border-radius: 20px;
+        padding:15px;
+    }
+    .favorite{
+        cursor: pointer;
+    }
+    .buttonstyle{
+        background-color:#6495ED;
+        border: none;
+        color: deeppink;
+        padding: 10px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        
+        font-family: monospace;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 9px;
+    }
+    .jumbo{
+        /*background-color: #42e5bc;*/
+        border-radius: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .letters{
+        background-color:white;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    #shrink{
+        width: 100px;
+        height: 100px;
+    }
 </style>
 <script>
-
+    /*global $*/
     function searchImage() {
     
         $("#images").html("Loading...");
@@ -58,18 +89,40 @@ img {
         
         $("#images").on("click", ".favorite", function(){ 
             
-            if($(this).attr("src")== "img/favorite.png"){
+            //alert($(this).next().attr("src"));
             
-            $(this).attr("src","img/favorite_on.png");
-            }else{
+            if ( $(this).attr("src") == "img/favorite.png") {
+            
+                $(this).attr("src","img/favorite_on.png");
+                //add image url to database
+                updateFavorites("add",$(this).next().attr("src"));
+            } else {
+                
                 $(this).attr("src","img/favorite.png");
-                callFavoriteAPI("delete",$(this).next().attr("src"));
+                //remove image url from database
+                updateFavorites("delete",$(this).next().attr("src"));
+                
             }
             
         });
-        function callFavoriteAPI(action,url, keyword){
-            
-        }
+    
+        function updateFavorites(action,favorite) {
+                $.ajax({
+                    type: "get",
+                    url: "api/favoriteAPI.php",
+                    dataType: "json",
+                    data: {
+                      "action": action,
+                      "favorite": favorite,
+                      "keyword": $("#keyword").val()
+                    },
+                    success: function(data, status) {
+                    },
+                    complete: function(data, status) { //optional, used for debugging purposes
+                      //alert(status);
+                    }
+                  });//ajax
+            }
     
         
     });//documentReady
@@ -78,13 +131,21 @@ img {
 </script>
 </head>
 <body>
-
-<h1> Pixabay Image Search </h1>
-Keyword: <input type="text" id="keyword"/> 
-<button onclick="searchImage()"> Search </button>
-<br /><br />
-
-<div id="images"></div>
+    <div class="jumbo">
+        <h1 class="letters"> Pixabay Image Search </h1>    
+    </div><br><br>
+    
+    Keyword: <input type="text" id="keyword"/> 
+    <button class="buttonstyle" onclick="searchImage()"> Search </button>
+    <br /><br />
+    <div>
+        <div id="images"></div>    
+    </div>
+    
+    
+    <form action="viewFavorite.php">
+        <button class="buttonstyle"> View Favorites </button>
+    </form>
 
 </body>
 </html>

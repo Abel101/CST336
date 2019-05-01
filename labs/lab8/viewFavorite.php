@@ -3,41 +3,7 @@
     <head>
         <title> View Favorites </title>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <style>
-            body {
-                text-align: center;
-                font-family: monospace;
-                color: purple;
-            }
-            img {
-                border-radius: 20px;
-                padding:15px;
-            }
-            .favorite{
-                cursor: pointer;
-            }
-            .buttonstyle{
-                background-color:#6495ED;
-                border: none;
-                color: deeppink;
-                padding: 10px 32px;
-                text-align: center;
-                text-decoration: none;
-                display: inline-block;
-                
-                font-family: monospace;
-                margin: 4px 2px;
-                cursor: pointer;
-                border-radius: 9px;
-            }
-            
-            .letters{
-                background-color:white;
-                padding-top: 5px;
-                padding-bottom: 5px;
-            }
-        </style>
-        
+   
         <script>
         /*global $*/
             function displayFavorites(keywordLink) {

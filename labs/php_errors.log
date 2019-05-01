@@ -19,3 +19,39 @@ Stack trace:
 #1 /home/ubuntu/workspace/CST336/labs/lab7/delete.php(10): getDatabaseConnection('ottermart')
 #2 {main}
   thrown in /home/ubuntu/workspace/CST336/db/db_connection.php on line 18
+[30-Apr-2019 23:30:24 UTC] PHP Warning:  move_uploaded_file(gallery/Array): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST336/labs/lab9/index.php on line 5
+[30-Apr-2019 23:30:24 UTC] PHP Stack trace:
+[30-Apr-2019 23:30:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab9/index.php:0
+[30-Apr-2019 23:30:24 UTC] PHP   2. move_uploaded_file() /home/ubuntu/workspace/CST336/labs/lab9/index.php:5
+[30-Apr-2019 23:30:24 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpxsY4NB' to 'gallery/Array' in /home/ubuntu/workspace/CST336/labs/lab9/index.php on line 5
+[30-Apr-2019 23:30:24 UTC] PHP Stack trace:
+[30-Apr-2019 23:30:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab9/index.php:0
+[30-Apr-2019 23:30:24 UTC] PHP   2. move_uploaded_file() /home/ubuntu/workspace/CST336/labs/lab9/index.php:5
+[30-Apr-2019 23:33:59 UTC] PHP Warning:  move_uploaded_file(gallery/Array): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST336/labs/lab9/index.php on line 5
+[30-Apr-2019 23:33:59 UTC] PHP Stack trace:
+[30-Apr-2019 23:33:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab9/index.php:0
+[30-Apr-2019 23:33:59 UTC] PHP   2. move_uploaded_file() /home/ubuntu/workspace/CST336/labs/lab9/index.php:5
+[30-Apr-2019 23:33:59 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpr8Zmkk' to 'gallery/Array' in /home/ubuntu/workspace/CST336/labs/lab9/index.php on line 5
+[30-Apr-2019 23:33:59 UTC] PHP Stack trace:
+[30-Apr-2019 23:33:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab9/index.php:0
+[30-Apr-2019 23:33:59 UTC] PHP   2. move_uploaded_file() /home/ubuntu/workspace/CST336/labs/lab9/index.php:5
+[30-Apr-2019 23:33:59 UTC] PHP Warning:  scandir() expects at least 1 parameter, 0 given in /home/ubuntu/workspace/CST336/labs/lab9/index.php on line 7
+[30-Apr-2019 23:33:59 UTC] PHP Stack trace:
+[30-Apr-2019 23:33:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab9/index.php:0
+[30-Apr-2019 23:33:59 UTC] PHP   2. scandir() /home/ubuntu/workspace/CST336/labs/lab9/index.php:7
+[30-Apr-2019 23:38:01 UTC] PHP Warning:  move_uploaded_file(gallery/Array): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST336/labs/lab9/index.php on line 5
+[30-Apr-2019 23:38:01 UTC] PHP Stack trace:
+[30-Apr-2019 23:38:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab9/index.php:0
+[30-Apr-2019 23:38:01 UTC] PHP   2. move_uploaded_file() /home/ubuntu/workspace/CST336/labs/lab9/index.php:5
+[30-Apr-2019 23:38:01 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpY8Ryr6' to 'gallery/Array' in /home/ubuntu/workspace/CST336/labs/lab9/index.php on line 5
+[30-Apr-2019 23:38:01 UTC] PHP Stack trace:
+[30-Apr-2019 23:38:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab9/index.php:0
+[30-Apr-2019 23:38:01 UTC] PHP   2. move_uploaded_file() /home/ubuntu/workspace/CST336/labs/lab9/index.php:5
+[30-Apr-2019 23:38:01 UTC] PHP Warning:  scandir(gallery): failed to open dir: No such file or directory in /home/ubuntu/workspace/CST336/labs/lab9/index.php on line 7
+[30-Apr-2019 23:38:01 UTC] PHP Stack trace:
+[30-Apr-2019 23:38:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab9/index.php:0
+[30-Apr-2019 23:38:01 UTC] PHP   2. scandir() /home/ubuntu/workspace/CST336/labs/lab9/index.php:7
+[30-Apr-2019 23:38:01 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/ubuntu/workspace/CST336/labs/lab9/index.php on line 7
+[30-Apr-2019 23:38:01 UTC] PHP Stack trace:
+[30-Apr-2019 23:38:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab9/index.php:0
+[30-Apr-2019 23:38:01 UTC] PHP   2. scandir() /home/ubuntu/workspace/CST336/labs/lab9/index.php:7

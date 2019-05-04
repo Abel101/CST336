@@ -27,13 +27,11 @@ if(!empty($_FILES)){
     </head>
     <body>
         <h1> File Uploading </h1>
-        <br/>
-        <br/>
-        <br/>
+       <hr>
         <form method ="POST" enctype="multipart/form-data">
           
             <input type="file" name ="myFile"/>
-            <button> Upload File </button>
+            <button id='but'> Upload File </button>
              
         </form>
         
@@ -42,8 +40,11 @@ if(!empty($_FILES)){
         <br/>
         <br/>
         <h3> Images Uploaded :</h3>
-        
-        <?= displayImagesUploaded() ?>       
-        
+        <div id ="pic">
+        <?= displayImagesUploaded() ?>
+        </div>
+        <br>
     </body>
+    
+    <hr>
 </html>

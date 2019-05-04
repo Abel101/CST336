@@ -55,3 +55,63 @@ Stack trace:
 [30-Apr-2019 23:38:01 UTC] PHP Stack trace:
 [30-Apr-2019 23:38:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab9/index.php:0
 [30-Apr-2019 23:38:01 UTC] PHP   2. scandir() /home/ubuntu/workspace/CST336/labs/lab9/index.php:7
+[04-May-2019 17:56:27 UTC] PHP Fatal error:  Call to undefined function displayImagesUploaded() in /home/ubuntu/workspace/CST336/labs/lab9/index.php on line 38
+[04-May-2019 17:56:27 UTC] PHP Stack trace:
+[04-May-2019 17:56:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab9/index.php:0
+[04-May-2019 17:57:36 UTC] PHP Warning:  move_uploaded_file(gallery/otter.png): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST336/labs/lab9/index.php on line 7
+[04-May-2019 17:57:36 UTC] PHP Stack trace:
+[04-May-2019 17:57:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab9/index.php:0
+[04-May-2019 17:57:36 UTC] PHP   2. move_uploaded_file() /home/ubuntu/workspace/CST336/labs/lab9/index.php:7
+[04-May-2019 17:57:36 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpvOcJtO' to 'gallery/otter.png' in /home/ubuntu/workspace/CST336/labs/lab9/index.php on line 7
+[04-May-2019 17:57:36 UTC] PHP Stack trace:
+[04-May-2019 17:57:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab9/index.php:0
+[04-May-2019 17:57:36 UTC] PHP   2. move_uploaded_file() /home/ubuntu/workspace/CST336/labs/lab9/index.php:7
+[04-May-2019 17:57:36 UTC] PHP Fatal error:  Call to undefined function displayImagesUploaded() in /home/ubuntu/workspace/CST336/labs/lab9/index.php on line 38
+[04-May-2019 17:57:36 UTC] PHP Stack trace:
+[04-May-2019 17:57:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab9/index.php:0
+[04-May-2019 17:59:09 UTC] PHP Warning:  move_uploaded_file(gallery/otter.png): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST336/labs/lab9/index.php on line 7
+[04-May-2019 17:59:09 UTC] PHP Stack trace:
+[04-May-2019 17:59:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab9/index.php:0
+[04-May-2019 17:59:09 UTC] PHP   2. move_uploaded_file() /home/ubuntu/workspace/CST336/labs/lab9/index.php:7
+[04-May-2019 17:59:09 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phptjcUMy' to 'gallery/otter.png' in /home/ubuntu/workspace/CST336/labs/lab9/index.php on line 7
+[04-May-2019 17:59:09 UTC] PHP Stack trace:
+[04-May-2019 17:59:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab9/index.php:0
+[04-May-2019 17:59:09 UTC] PHP   2. move_uploaded_file() /home/ubuntu/workspace/CST336/labs/lab9/index.php:7
+[04-May-2019 17:59:09 UTC] PHP Warning:  scandir(gallery): failed to open dir: No such file or directory in /home/ubuntu/workspace/CST336/labs/lab9/index.php on line 11
+[04-May-2019 17:59:09 UTC] PHP Stack trace:
+[04-May-2019 17:59:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab9/index.php:0
+[04-May-2019 17:59:09 UTC] PHP   2. displayImagesUploaded() /home/ubuntu/workspace/CST336/labs/lab9/index.php:38
+[04-May-2019 17:59:09 UTC] PHP   3. scandir() /home/ubuntu/workspace/CST336/labs/lab9/index.php:11
+[04-May-2019 17:59:09 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/ubuntu/workspace/CST336/labs/lab9/index.php on line 11
+[04-May-2019 17:59:09 UTC] PHP Stack trace:
+[04-May-2019 17:59:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab9/index.php:0
+[04-May-2019 17:59:09 UTC] PHP   2. displayImagesUploaded() /home/ubuntu/workspace/CST336/labs/lab9/index.php:38
+[04-May-2019 17:59:09 UTC] PHP   3. scandir() /home/ubuntu/workspace/CST336/labs/lab9/index.php:11
+[04-May-2019 18:01:00 UTC] PHP Warning:  scandir(gallery): failed to open dir: No such file or directory in /home/ubuntu/workspace/CST336/labs/lab9/index.php on line 12
+[04-May-2019 18:01:00 UTC] PHP Stack trace:
+[04-May-2019 18:01:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab9/index.php:0
+[04-May-2019 18:01:00 UTC] PHP   2. displayImagesUploaded() /home/ubuntu/workspace/CST336/labs/lab9/index.php:39
+[04-May-2019 18:01:00 UTC] PHP   3. scandir() /home/ubuntu/workspace/CST336/labs/lab9/index.php:12
+[04-May-2019 18:01:00 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/ubuntu/workspace/CST336/labs/lab9/index.php on line 12
+[04-May-2019 18:01:00 UTC] PHP Stack trace:
+[04-May-2019 18:01:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab9/index.php:0
+[04-May-2019 18:01:00 UTC] PHP   2. displayImagesUploaded() /home/ubuntu/workspace/CST336/labs/lab9/index.php:39
+[04-May-2019 18:01:00 UTC] PHP   3. scandir() /home/ubuntu/workspace/CST336/labs/lab9/index.php:12
+[04-May-2019 18:01:22 UTC] PHP Warning:  move_uploaded_file(gallery/kat.jpg): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST336/labs/lab9/index.php on line 7
+[04-May-2019 18:01:22 UTC] PHP Stack trace:
+[04-May-2019 18:01:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab9/index.php:0
+[04-May-2019 18:01:22 UTC] PHP   2. move_uploaded_file() /home/ubuntu/workspace/CST336/labs/lab9/index.php:7
+[04-May-2019 18:01:22 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpu3WN8N' to 'gallery/kat.jpg' in /home/ubuntu/workspace/CST336/labs/lab9/index.php on line 7
+[04-May-2019 18:01:22 UTC] PHP Stack trace:
+[04-May-2019 18:01:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab9/index.php:0
+[04-May-2019 18:01:22 UTC] PHP   2. move_uploaded_file() /home/ubuntu/workspace/CST336/labs/lab9/index.php:7
+[04-May-2019 18:01:22 UTC] PHP Warning:  scandir(gallery): failed to open dir: No such file or directory in /home/ubuntu/workspace/CST336/labs/lab9/index.php on line 12
+[04-May-2019 18:01:22 UTC] PHP Stack trace:
+[04-May-2019 18:01:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab9/index.php:0
+[04-May-2019 18:01:22 UTC] PHP   2. displayImagesUploaded() /home/ubuntu/workspace/CST336/labs/lab9/index.php:39
+[04-May-2019 18:01:22 UTC] PHP   3. scandir() /home/ubuntu/workspace/CST336/labs/lab9/index.php:12
+[04-May-2019 18:01:22 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/ubuntu/workspace/CST336/labs/lab9/index.php on line 12
+[04-May-2019 18:01:22 UTC] PHP Stack trace:
+[04-May-2019 18:01:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/labs/lab9/index.php:0
+[04-May-2019 18:01:22 UTC] PHP   2. displayImagesUploaded() /home/ubuntu/workspace/CST336/labs/lab9/index.php:39
+[04-May-2019 18:01:22 UTC] PHP   3. scandir() /home/ubuntu/workspace/CST336/labs/lab9/index.php:12

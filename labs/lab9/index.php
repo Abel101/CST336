@@ -24,6 +24,13 @@ if(!empty($_FILES)){
     <head>
         <title>Lab9 : File Upload </title>
         <link rel="stylesheet" href="css/styles.css" type="text/css" />
+        <style>
+            
+            img{padding: 10px;}
+            
+            img:hover {width:250px;}
+            
+        </style>
     </head>
     <body>
         <h1> File Uploading </h1>
@@ -40,11 +47,9 @@ if(!empty($_FILES)){
         <br/>
         <br/>
         <h3> Images Uploaded :</h3>
-        <div id ="pic">
+       
         <?= displayImagesUploaded() ?>
-        </div>
         <br>
     </body>
-    
     <hr>
 </html>

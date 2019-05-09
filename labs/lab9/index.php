@@ -3,17 +3,21 @@ if(!empty($_FILES)){
    // print_r($_FILES);
     
    // echo"Image size:" . $_FILES['myFile']['size'];
-    
+   if($_FILES['myFile']['size'] < 125000){ 
     move_uploaded_file($_FILES['myFile']['tmp_name'],"gallery/". $_FILES['myFile']['name']);
+}else{
+    echo("File too Big !!!");
 }
-    
+}    
     function displayImagesUploaded(){
     
     $images = scandir("gallery");//Returns all file name within a folder
 
     for($i=2;$i<count($images);$i++){
         echo "<img src='gallery/$images[$i]' width='50'/>";
+        
         }//loop
+        
     }//function
 
 ?>
@@ -47,8 +51,10 @@ if(!empty($_FILES)){
         <br/>
         <br/>
         <h3> Images Uploaded :</h3>
-       
+       <div id="pic">
         <?= displayImagesUploaded() ?>
+        </div>
+        
         <br>
     </body>
     <hr>

@@ -1,0 +1,10 @@
+[08-May-2019 00:19:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''fe_login' SET 'failedAttempts' = 0 WHERE 'fe_login'.'studentId' = 14' at line 1' in /home/ubuntu/workspace/CST336/practice/FinalPractice/api/unlock.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/practice/FinalPractice/api/unlock.php(14): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/practice/FinalPractice/api/unlock.php on line 14
+[08-May-2019 00:23:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''fe_login' SET 'failedAttempts' = 0 WHERE 'fe_login'.'studentId' = 14' at line 1' in /home/ubuntu/workspace/CST336/practice/FinalPractice/api/unlock.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/practice/FinalPractice/api/unlock.php(14): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/practice/FinalPractice/api/unlock.php on line 14

@@ -56,7 +56,7 @@ if (!isset($_SESSION['adminName'])) {
                     data : {"productName": $("#productName").val(),
                         "productDescription": $("#productDescription").val(),
                         "productImage": $("#productImage").val(),
-                        "price": $("#productPrice").val(),
+                        "prodcutPrice": $("#productPrice").val(),
                         "catId": $("#catId").val()
                         
                     },

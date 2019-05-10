@@ -17,7 +17,7 @@
                     success: function(data, status) {
                          $("#productName").html(data["productName"]);
                          $("#productDescription").html(data["productDescription"]);
-                         $("#productPrice").html("$"+data["price"]);
+                         $("#productPrice").html("$"+data["productPrice"]);
                          $("#productImage").attr("src", data["productImage"]);
                     }
                 });

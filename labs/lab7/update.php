@@ -29,7 +29,7 @@
                     success: function(data, status) {
                          $("#productName").val(data["productName"]);
                          $("#productDescription").val(data["productDescription"]);
-                         $("#productPrice").val(data["price"]);
+                         $("#productPrice").val(data["productPrice"]);
                          $("#productImage").val(data["productImage"]);
                          $("#catId").val(data["catId"]).change();
                     }

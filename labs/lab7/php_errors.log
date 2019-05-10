@@ -922,3 +922,23 @@ Stack trace:
 #0 /home/ubuntu/workspace/CST336/labs/lab7/api/getProducts.php(20): PDOStatement->execute()
 #1 {main}
   thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/getProducts.php on line 20
+[10-May-2019 18:27:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'productPrice' cannot be null' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[10-May-2019 18:29:07 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'productPrice' cannot be null' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[10-May-2019 18:29:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'productPrice' cannot be null' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18
+[10-May-2019 18:29:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'productPrice' cannot be null' in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/labs/lab7/api/addProductAPI.php on line 18

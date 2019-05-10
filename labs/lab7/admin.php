@@ -28,7 +28,6 @@ if (!isset($_SESSION['adminName'])) {
             }
             
             $(document).ready(function(){
-                
                 //Gets first 10 products from the database and displays them
                 $.ajax({
 
@@ -36,7 +35,7 @@ if (!isset($_SESSION['adminName'])) {
                     url: "api/getProducts.php",
                     dataType: "json",
                     success: function(data,status) {
-                      //alert(data[0].productName);
+                      alert("hello");
                       data.forEach(function(product){
                           $("#products").append("<div class='row'>" + 
                                                 "<div class='col1'>" + 
@@ -46,18 +45,14 @@ if (!isset($_SESSION['adminName'])) {
                                                 "<input type='hidden' name='productId' value='"+ product.productId + "'>" +
                                                 "<button class=\"btn btn-outline-danger\">Delete</button></form>" +
                                                 "<a target='productIframe' onclick='openModal()' href='productInfo.php?productId="+product.productId+"'> " + product.productName + "</a></div>"+
-                                                "<div class='col2'>"+"$" + product.price + "</div>"+
+                                                "<div class='col2'>"+"$" + product.productPrice + "</div>"+
                                                 "</div><br>");
                       })
                     },
                     complete: function(data,status) { //optional, used for debugging purposes
                     //alert(status);
                     }
-                    
                 });//ajax
-                
-               
-                
             });//documentReady
             
         </script>

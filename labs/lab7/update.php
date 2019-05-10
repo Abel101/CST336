@@ -49,7 +49,7 @@
                             dataType: "json",
                             data:{"productId": <?=$_GET['productId']?>,
                                 "productDescription": $("#productDescription").val(),
-                                "price": $("#productPrice").val(),
+                                "productPrice": $("#productPrice").val(),
                                 "productName": $("#productName").val(),
                                 "catId": $("#catId").val(),
                                 "productImage": $("#productImage").val()
